@@ -44,7 +44,7 @@ jobs:
           plugin_languages_categories: markup, programming
           plugin_languages_colors: github
           plugin_languages_details: percentage, lines
-          plugin_languages_ignored: markdown
+          plugin_languages_ignored: markdown, html, tex, Makefile
           plugin_languages_limit: 8
           plugin_languages_recent_categories: markup, programming
           plugin_languages_recent_days: 14
