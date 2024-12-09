@@ -89,13 +89,13 @@
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                         <path xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" d="M2.5 3.5c0-.133.058-.318.282-.55.227-.237.592-.484 1.1-.708C4.899 1.795 6.354 1.5 8 1.5c1.647 0 3.102.295 4.117.742.51.224.874.47 1.101.707.224.233.282.418.282.551 0 .133-.058.318-.282.55-.227.237-.592.484-1.1.708C11.101 5.205 9.646 5.5 8 5.5c-1.647 0-3.102-.295-4.117-.742-.51-.224-.874-.47-1.101-.707-.224-.233-.282-.418-.282-.551zM1 3.5c0-.626.292-1.165.7-1.59.406-.422.956-.767 1.579-1.041C4.525.32 6.195 0 8 0c1.805 0 3.475.32 4.722.869.622.274 1.172.62 1.578 1.04.408.426.7.965.7 1.591v9c0 .626-.292 1.165-.7 1.59-.406.422-.956.767-1.579 1.041C11.476 15.68 9.806 16 8 16c-1.805 0-3.475-.32-4.721-.869-.623-.274-1.173-.62-1.579-1.04-.408-.426-.7-.965-.7-1.591v-9zM2.5 8V5.724c.241.15.503.286.779.407C4.525 6.68 6.195 7 8 7c1.805 0 3.475-.32 4.722-.869.275-.121.537-.257.778-.407V8c0 .133-.058.318-.282.55-.227.237-.592.484-1.1.708C11.101 9.705 9.646 10 8 10c-1.647 0-3.102-.295-4.117-.742-.51-.224-.874-.47-1.101-.707C2.558 8.318 2.5 8.133 2.5 8zm0 2.225V12.5c0 .133.058.318.282.55.227.237.592.484 1.1.708 1.016.447 2.471.742 4.118.742 1.647 0 3.102-.295 4.117-.742.51-.224.874-.47 1.101-.707.224-.233.282-.418.282-.551v-2.275c-.241.15-.503.285-.778.406-1.247.549-2.917.869-4.722.869-1.805 0-3.475-.32-4.721-.869a6.236 6.236 0 01-.779-.406z"/>
                                     </svg>
-                                    40 MB used
+                                    40.7 MB used
                                 </div>
                                 <div class="field ">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                         <path fill-rule="evenodd" d="M2.75 1.5a.25.25 0 00-.25.25v12.5c0 .138.112.25.25.25h10.5a.25.25 0 00.25-.25V4.664a.25.25 0 00-.073-.177l-2.914-2.914a.25.25 0 00-.177-.073H2.75zM1 1.75C1 .784 1.784 0 2.75 0h7.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0113.25 16H2.75A1.75 1.75 0 011 14.25V1.75zm7 1.5a.75.75 0 01.75.75v1.5h1.5a.75.75 0 010 1.5h-1.5v1.5a.75.75 0 01-1.5 0V7h-1.5a.75.75 0 010-1.5h1.5V4A.75.75 0 018 3.25zm-3 8a.75.75 0 01.75-.75h4.5a.75.75 0 010 1.5h-4.5a.75.75 0 01-.75-.75z"/>
                                     </svg>
-                                    151k added, 26.6k removed
+                                    68.8k added, 48.5k removed
                                 </div>
                             </section>
                             <section>
@@ -258,33 +258,33 @@
             </section>
             <section class="column">
                 <h3 class="field">Recently used languages</h3>
-                <small>estimation from 210kb of code in 248 edited files across 89 commits over last 14 days</small>
+                <small>estimation from 212kb of code in 254 edited files across 97 commits over last 14 days</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="460" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="134.4228220951804" height="8" fill="#3178c6"/>
-                    <rect mask="url(#languages-bar)" x="134.4228220951804" y="0" width="127.41301631772234" height="8" fill="#000080"/>
-                    <rect mask="url(#languages-bar)" x="261.8358384129027" y="0" width="81.30503918524968" height="8" fill="#A97BFF"/>
-                    <rect mask="url(#languages-bar)" x="343.14087759815243" y="0" width="51.8290235868701" height="8" fill="#ec915c"/>
-                    <rect mask="url(#languages-bar)" x="394.96990118502254" y="0" width="35.00548972097073" height="8" fill="#89e051"/>
-                    <rect mask="url(#languages-bar)" x="429.97539090599327" y="0" width="16.03982887214629" height="8" fill="#f34b7d"/>
-                    <rect mask="url(#languages-bar)" x="446.0152197781395" y="0" width="7.244917275583992" height="8" fill="#DA3434"/>
-                    <rect mask="url(#languages-bar)" x="453.2601370537235" y="0" width="6.739862946276455" height="8" fill="#3178c6"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="139.0420168067227" height="8" fill="#000080"/>
+                    <rect mask="url(#languages-bar)" x="139.0420168067227" y="0" width="129.72268907563026" height="8" fill="#3178c6"/>
+                    <rect mask="url(#languages-bar)" x="268.7647058823529" y="0" width="78.46218487394958" height="8" fill="#A97BFF"/>
+                    <rect mask="url(#languages-bar)" x="347.2268907563025" y="0" width="50.016806722689076" height="8" fill="#ec915c"/>
+                    <rect mask="url(#languages-bar)" x="397.2436974789916" y="0" width="33.78151260504202" height="8" fill="#89e051"/>
+                    <rect mask="url(#languages-bar)" x="431.0252100840336" y="0" width="15.478991596638657" height="8" fill="#f34b7d"/>
+                    <rect mask="url(#languages-bar)" x="446.5042016806723" y="0" width="6.991596638655462" height="8" fill="#DA3434"/>
+                    <rect mask="url(#languages-bar)" x="453.4957983193278" y="0" width="6.504201680672269" height="8" fill="#3178c6"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
                         <div class="field language details">
                             <div class="field">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                    <path fill="#3178c6" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                                    <path fill="#000080" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                                 </svg>
-                                TSX
+                                Lua
                             </div>
                             <small>
-                                <div>475 lines</div>
-                                <div>29.22%</div>
+                                <div>639 lines</div>
+                                <div>30.23%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -296,7 +296,7 @@
                             </div>
                             <small>
                                 <div>277 lines</div>
-                                <div>17.68%</div>
+                                <div>17.06%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -308,7 +308,7 @@
                             </div>
                             <small>
                                 <div>159 lines</div>
-                                <div>7.61%</div>
+                                <div>7.34%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -320,7 +320,7 @@
                             </div>
                             <small>
                                 <div>29 lines</div>
-                                <div>1.57%</div>
+                                <div>1.52%</div>
                             </small>
                         </div>
                     </section>
@@ -328,13 +328,13 @@
                         <div class="field language details">
                             <div class="field">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                    <path fill="#000080" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                                    <path fill="#3178c6" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                                 </svg>
-                                Lua
+                                TSX
                             </div>
                             <small>
-                                <div>539 lines</div>
-                                <div>27.7%</div>
+                                <div>475 lines</div>
+                                <div>28.2%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -346,7 +346,7 @@
                             </div>
                             <small>
                                 <div>214 lines</div>
-                                <div>11.27%</div>
+                                <div>10.87%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -358,7 +358,7 @@
                             </div>
                             <small>
                                 <div>51 lines</div>
-                                <div>3.49%</div>
+                                <div>3.36%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -370,7 +370,7 @@
                             </div>
                             <small>
                                 <div>43 lines</div>
-                                <div>1.47%</div>
+                                <div>1.41%</div>
                             </small>
                         </div>
                     </section>
@@ -604,7 +604,7 @@
                                 <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"/>
                             </svg>
                             <span class="code">9c466c61</span>
-                            <span class="code">test/formatter/docformatter_spec.lua</span>
+                            <span class="code">test/formatter/gofmt_spec.lua</span>
                             <span class="code">
                                 <span class="snippet additions">++0</span>
                                 <span class="snippet deletions">--1</span>
@@ -615,14 +615,14 @@
                 <div class="row">
                     <section class="snippet">
                         <div class="body markdown">
-                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -2,7 +2,6 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">it('can format', function()<br /></span><span class="token prefix unchanged">·</span><span class="token line">  local ft = require('guard.filetype')<br /></span><span class="token prefix unchanged">·</span><span class="token line">  ft('python'):fmt('docformatter')<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">  require('guard').setup()<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">  local formatted = require('test.formatter.helper').test_with('python', {<br /></span><span class="token prefix unchanged">·</span><span class="token line">    [[def foo():]],</span></span></code>
+                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -2,7 +2,6 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">it('can format', function()<br /></span><span class="token prefix unchanged">·</span><span class="token line">  local ft = require('guard.filetype')<br /></span><span class="token prefix unchanged">·</span><span class="token line">  ft('go'):fmt('gofmt')<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">  require('guard').setup()<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">  local formatted = require('test.formatter.helper').test_with('go', {<br /></span><span class="token prefix unchanged">·</span><span class="token line">    [[package         main]],</span></span></code>
                         </div>
                     </section>
                 </div>
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 9 Dec 2024, 15:20:30 (timezone Asia/Shanghai) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 9 Dec 2024, 16:25:57 (timezone Asia/Shanghai) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
