@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1155" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1168" class="">
     <defs>
         <style/>
     </defs>
@@ -43,7 +43,7 @@
                                     <rect class="day" x="150" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="165" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
                                     <rect class="day" x="180" y="0" width="11" height="11" fill="#30a14e" rx="2" ry="2"/>
-                                    <rect class="day" x="195" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
+                                    <rect class="day" x="195" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
                                 </g>
                             </svg>
                         </div>
@@ -95,7 +95,7 @@
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                         <path fill-rule="evenodd" d="M2.75 1.5a.25.25 0 00-.25.25v12.5c0 .138.112.25.25.25h10.5a.25.25 0 00.25-.25V4.664a.25.25 0 00-.073-.177l-2.914-2.914a.25.25 0 00-.177-.073H2.75zM1 1.75C1 .784 1.784 0 2.75 0h7.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0113.25 16H2.75A1.75 1.75 0 011 14.25V1.75zm7 1.5a.75.75 0 01.75.75v1.5h1.5a.75.75 0 010 1.5h-1.5v1.5a.75.75 0 01-1.5 0V7h-1.5a.75.75 0 010-1.5h1.5V4A.75.75 0 018 3.25zm-3 8a.75.75 0 01.75-.75h4.5a.75.75 0 010 1.5h-4.5a.75.75 0 01-.75-.75z"/>
                                     </svg>
-                                    83.7k added, 42.1k removed
+                                    227k added, 36.7k removed
                                 </div>
                             </section>
                             <section>
@@ -138,20 +138,20 @@
             </section>
             <section class="column">
                 <h3 class="field">Most used languages</h3>
-                <small>estimation from 1.33mb of code in 1601 edited files across 392 commits</small>
+                <small>estimation from 1.33mb of code in 1615 edited files across 393 commits</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="460" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="208.0466071547344" height="8" fill="#000080"/>
-                    <rect mask="url(#languages-bar)" x="208.0466071547344" y="0" width="146.4628829762147" height="8" fill="#c22d40"/>
-                    <rect mask="url(#languages-bar)" x="354.5094901309491" y="0" width="32.84038803016041" height="8" fill="#ec915c"/>
-                    <rect mask="url(#languages-bar)" x="387.3498781611095" y="0" width="30.911927311865234" height="8" fill="#3572A5"/>
-                    <rect mask="url(#languages-bar)" x="418.26180547297474" y="0" width="15.07537080744215" height="8" fill="#dea584"/>
-                    <rect mask="url(#languages-bar)" x="433.3371762804169" y="0" width="9.79157386822857" height="8" fill="#f34b7d"/>
-                    <rect mask="url(#languages-bar)" x="443.12875014864545" y="0" width="9.669190784182915" height="8" fill="#89e051"/>
-                    <rect mask="url(#languages-bar)" x="452.79794093282834" y="0" width="7.202059067171624" height="8" fill="#b07219"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="209.28766974927947" height="8" fill="#000080"/>
+                    <rect mask="url(#languages-bar)" x="209.28766974927947" y="0" width="145.74144158779632" height="8" fill="#c22d40"/>
+                    <rect mask="url(#languages-bar)" x="355.0291113370758" y="0" width="32.678624075667415" height="8" fill="#ec915c"/>
+                    <rect mask="url(#languages-bar)" x="387.70773541274315" y="0" width="30.759662497016667" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar)" x="418.4673979097598" y="0" width="15.001113110029424" height="8" fill="#dea584"/>
+                    <rect mask="url(#languages-bar)" x="433.4685110197892" y="0" width="9.743342900062775" height="8" fill="#f34b7d"/>
+                    <rect mask="url(#languages-bar)" x="443.21185391985205" y="0" width="9.621562646033016" height="8" fill="#89e051"/>
+                    <rect mask="url(#languages-bar)" x="452.83341656588505" y="0" width="7.1665834341149175" height="8" fill="#b07219"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -163,8 +163,8 @@
                                 Lua
                             </div>
                             <small>
-                                <div>8.79k lines</div>
-                                <div>45.23%</div>
+                                <div>8.89k lines</div>
+                                <div>45.5%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -176,7 +176,7 @@
                             </div>
                             <small>
                                 <div>1.22k lines</div>
-                                <div>7.14%</div>
+                                <div>7.1%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -188,7 +188,7 @@
                             </div>
                             <small>
                                 <div>582 lines</div>
-                                <div>3.28%</div>
+                                <div>3.26%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -200,7 +200,7 @@
                             </div>
                             <small>
                                 <div>347 lines</div>
-                                <div>2.1%</div>
+                                <div>2.09%</div>
                             </small>
                         </div>
                     </section>
@@ -214,7 +214,7 @@
                             </div>
                             <small>
                                 <div>5.61k lines</div>
-                                <div>31.84%</div>
+                                <div>31.68%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -226,7 +226,7 @@
                             </div>
                             <small>
                                 <div>1.14k lines</div>
-                                <div>6.72%</div>
+                                <div>6.69%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -238,7 +238,7 @@
                             </div>
                             <small>
                                 <div>380 lines</div>
-                                <div>2.13%</div>
+                                <div>2.12%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -250,7 +250,7 @@
                             </div>
                             <small>
                                 <div>221 lines</div>
-                                <div>1.57%</div>
+                                <div>1.56%</div>
                             </small>
                         </div>
                     </section>
@@ -630,7 +630,7 @@
                                 <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"/>
                             </svg>
                             <span class="code">1df96509</span>
-                            <span class="code">after/plugin/misc.lua</span>
+                            <span class="code">package.list</span>
                             <span class="code">
                                 <span class="snippet additions">++1</span>
                                 <span class="snippet deletions">--1</span>
@@ -641,14 +641,14 @@
                 <div class="row">
                     <section class="snippet">
                         <div class="body markdown">
-                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -1,7 +1,7 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">local api = vim.api<br /></span><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">local function create_padwin(direction)<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">  local padrate = 0.2<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">  local padrate = 0.15<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">  local win = api.nvim_open_win(api.nvim_create_buf(false, true), false, {<br /></span><span class="token prefix unchanged">·</span><span class="token line">      style = "minimal",<br /></span><span class="token prefix unchanged">·</span><span class="token line">      split = direction,</span></span></code>
+                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -1,4 +1,3 @@</span><br /><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">akinsho/git-conflict.nvim<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">echasnovski/mini.hipatterns<br /></span><span class="token prefix unchanged">·</span><span class="token line">neovim/nvim-lspconfig<br /></span><span class="token prefix unchanged">·</span><span class="token line">nvim-lua/plenary.nvim<br /></span></span>@@ -9,4 +8,5 @@ nvimdev/indentmini.nvim<br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">nvimdev/phoenix.nvim<br /></span><span class="token prefix unchanged">·</span><span class="token line">pmizio/typescript-tools.nvim<br /></span><span class="token prefix unchanged">·</span><span class="token line">scalameta/nvim-metals<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">xiaoshihou514/git-conflict.nvim<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">xiaoshihou514/squirrel.nvim</span></span></code>
                         </div>
                     </section>
                 </div>
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 27 Mar 2025, 09:35:21 (timezone Asia/Shanghai) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 27 Mar 2025, 10:33:18 (timezone Asia/Shanghai) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
