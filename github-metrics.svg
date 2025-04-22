@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1109" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1055" class="">
     <defs>
         <style/>
     </defs>
@@ -95,7 +95,7 @@
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                         <path fill-rule="evenodd" d="M2.75 1.5a.25.25 0 00-.25.25v12.5c0 .138.112.25.25.25h10.5a.25.25 0 00.25-.25V4.664a.25.25 0 00-.073-.177l-2.914-2.914a.25.25 0 00-.177-.073H2.75zM1 1.75C1 .784 1.784 0 2.75 0h7.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0113.25 16H2.75A1.75 1.75 0 011 14.25V1.75zm7 1.5a.75.75 0 01.75.75v1.5h1.5a.75.75 0 010 1.5h-1.5v1.5a.75.75 0 01-1.5 0V7h-1.5a.75.75 0 010-1.5h1.5V4A.75.75 0 018 3.25zm-3 8a.75.75 0 01.75-.75h4.5a.75.75 0 010 1.5h-4.5a.75.75 0 01-.75-.75z"/>
                                     </svg>
-                                    26.1k added, 9.43k removed
+                                    247k added, 51.5k removed
                                 </div>
                             </section>
                             <section>
@@ -258,17 +258,17 @@
             </section>
             <section class="column">
                 <h3 class="field">Recently used languages</h3>
-                <small>estimation from 128kb of code in 228 edited files across 133 commits over last 14 days</small>
+                <small>estimation from 127kb of code in 223 edited files across 126 commits over last 14 days</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="460" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="327.0694285375775" height="8" fill="#dea584"/>
-                    <rect mask="url(#languages-bar)" x="327.0694285375775" y="0" width="63.76979582165002" height="8" fill="#000080"/>
-                    <rect mask="url(#languages-bar)" x="390.8392243592275" y="0" width="61.43536985111173" height="8" fill="#1a5e9a"/>
-                    <rect mask="url(#languages-bar)" x="452.2745942103393" y="0" width="3.9512657477982707" height="8" fill="#3178c6"/>
-                    <rect mask="url(#languages-bar)" x="456.22585995813756" y="0" width="3.7741400418624855" height="8" fill="#89e051"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="328.73771955939264" height="8" fill="#dea584"/>
+                    <rect mask="url(#languages-bar)" x="328.73771955939264" y="0" width="61.74873474248288" height="8" fill="#000080"/>
+                    <rect mask="url(#languages-bar)" x="390.48645430187554" y="0" width="61.74873474248288" height="8" fill="#1a5e9a"/>
+                    <rect mask="url(#languages-bar)" x="452.2351890443585" y="0" width="3.971420065495683" height="8" fill="#3178c6"/>
+                    <rect mask="url(#languages-bar)" x="456.2066091098541" y="0" width="3.7933908901458766" height="8" fill="#89e051"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -281,7 +281,7 @@
                             </div>
                             <small>
                                 <div>2.48k lines</div>
-                                <div>71.1%</div>
+                                <div>71.46%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -293,7 +293,7 @@
                             </div>
                             <small>
                                 <div>504 lines</div>
-                                <div>13.36%</div>
+                                <div>13.42%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -318,8 +318,8 @@
                                 Lua
                             </div>
                             <small>
-                                <div>595 lines</div>
-                                <div>13.86%</div>
+                                <div>581 lines</div>
+                                <div>13.42%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -587,7 +587,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zm.5 4.75a.75.75 0 00-1.5 0v3.5a.75.75 0 00.471.696l2.5 1a.75.75 0 00.557-1.392L8.5 7.742V4.75z"/>
                             </svg>
-                            On 19 Apr 2025, 22:05:43
+                            On 22 Apr 2025, 14:00:37
                         </div>
                     </section>
                 </div>
@@ -597,14 +597,14 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                             </svg>
-                            ref: use a library for conversion to okhsv
+                            chore: add this repo to multiple remotes
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"/>
                             </svg>
-                            <span class="code">1183160d</span>
-                            <span class="code">Cargo.toml</span>
+                            <span class="code">905a60b7</span>
+                            <span class="code">.gitignore</span>
                             <span class="code">
                                 <span class="snippet additions">++1</span>
                                 <span class="snippet deletions">--0</span>
@@ -615,14 +615,14 @@
                 <div class="row">
                     <section class="snippet">
                         <div class="body markdown">
-                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -17,6 +17,7 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">"webp",<br /></span><span class="token prefix unchanged">·</span><span class="token line">] }<br /></span><span class="token prefix unchanged">·</span><span class="token line">clap = { version = "4.5.29", features = ["derive"] }<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">palette = "0.7.6"<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">[profile.dev]<br /></span><span class="token prefix unchanged">·</span><span class="token line">opt-level = 1</span></span></code>
+                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -1,2 +1,3 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">/target<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">sefenbu<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">test.jpg</span></span></code>
                         </div>
                     </section>
                 </div>
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 22 Apr 2025, 18:16:20 (timezone Asia/Shanghai) with lowlighter/metrics@3.35.0-beta</span>
+                <span>Last updated 22 Apr 2025, 19:14:51 (timezone Asia/Shanghai) with lowlighter/metrics@3.35.0-beta</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
