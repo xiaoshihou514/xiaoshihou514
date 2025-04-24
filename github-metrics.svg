@@ -43,7 +43,7 @@
                                     <rect class="day" x="150" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
                                     <rect class="day" x="165" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
                                     <rect class="day" x="180" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="195" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
+                                    <rect class="day" x="195" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
                                 </g>
                             </svg>
                         </div>
@@ -95,7 +95,7 @@
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                         <path fill-rule="evenodd" d="M2.75 1.5a.25.25 0 00-.25.25v12.5c0 .138.112.25.25.25h10.5a.25.25 0 00.25-.25V4.664a.25.25 0 00-.073-.177l-2.914-2.914a.25.25 0 00-.177-.073H2.75zM1 1.75C1 .784 1.784 0 2.75 0h7.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0113.25 16H2.75A1.75 1.75 0 011 14.25V1.75zm7 1.5a.75.75 0 01.75.75v1.5h1.5a.75.75 0 010 1.5h-1.5v1.5a.75.75 0 01-1.5 0V7h-1.5a.75.75 0 010-1.5h1.5V4A.75.75 0 018 3.25zm-3 8a.75.75 0 01.75-.75h4.5a.75.75 0 010 1.5h-4.5a.75.75 0 01-.75-.75z"/>
                                     </svg>
-                                    9.49k added, 5.72k removed
+                                    10.2k added, 5.74k removed
                                 </div>
                             </section>
                             <section>
@@ -138,20 +138,20 @@
             </section>
             <section class="column">
                 <h3 class="field">Most used languages</h3>
-                <small>estimation from 13.1mb of code in 5698 edited files across 591 commits</small>
+                <small>estimation from 13.1mb of code in 5703 edited files across 592 commits</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="460" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="139.58894496876" height="8" fill="#A97BFF"/>
-                    <rect mask="url(#languages-bar)" x="139.58894496876" y="0" width="83.42884590127025" height="8" fill="#000080"/>
-                    <rect mask="url(#languages-bar)" x="223.0177908700302" y="0" width="82.85886260014635" height="8" fill="#c22d40"/>
-                    <rect mask="url(#languages-bar)" x="305.87665347017656" y="0" width="66.57929714618083" height="8" fill="#5e5086"/>
-                    <rect mask="url(#languages-bar)" x="372.45595061635737" y="0" width="31.70674522018125" height="8" fill="#dea584"/>
-                    <rect mask="url(#languages-bar)" x="404.1626958365386" y="0" width="28.366594742668443" height="8" fill="#ededed"/>
-                    <rect mask="url(#languages-bar)" x="432.52929057920704" y="0" width="15.24213370358557" height="8" fill="#3572A5"/>
-                    <rect mask="url(#languages-bar)" x="447.7714242827926" y="0" width="12.228575717207347" height="8" fill="#ec915c"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="139.5666339996308" height="8" fill="#A97BFF"/>
+                    <rect mask="url(#languages-bar)" x="139.5666339996308" y="0" width="83.41551118908511" height="8" fill="#000080"/>
+                    <rect mask="url(#languages-bar)" x="222.98214518871592" y="0" width="82.84561899030344" height="8" fill="#c22d40"/>
+                    <rect mask="url(#languages-bar)" x="305.8277641790193" y="0" width="66.56865555387134" height="8" fill="#5e5086"/>
+                    <rect mask="url(#languages-bar)" x="372.3964197328907" y="0" width="31.775200767200097" height="8" fill="#dea584"/>
+                    <rect mask="url(#languages-bar)" x="404.17162050009074" y="0" width="28.362060814714873" height="8" fill="#ededed"/>
+                    <rect mask="url(#languages-bar)" x="432.5336813148057" y="0" width="15.239697502247424" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar)" x="447.77337881705307" y="0" width="12.226621182946907" height="8" fill="#ec915c"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -164,7 +164,7 @@
                             </div>
                             <small>
                                 <div>14.6k lines</div>
-                                <div>30.35%</div>
+                                <div>30.34%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -188,7 +188,7 @@
                             </div>
                             <small>
                                 <div>3.31k lines</div>
-                                <div>6.89%</div>
+                                <div>6.91%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -214,7 +214,7 @@
                             </div>
                             <small>
                                 <div>9.51k lines</div>
-                                <div>18.14%</div>
+                                <div>18.13%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -604,7 +604,7 @@
                                 <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"/>
                             </svg>
                             <span class="code">1d2ff0f9</span>
-                            <span class="code">pack/data/opt/treesitter</span>
+                            <span class="code">pack/data/opt/guard-collection</span>
                             <span class="code">
                                 <span class="snippet additions">++1</span>
                                 <span class="snippet deletions">--1</span>
@@ -615,14 +615,14 @@
                 <div class="row">
                     <section class="snippet">
                         <div class="body markdown">
-                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -1 +1 @@</span><br /><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">Subproject commit 50336bce5b257294ed999918a9b2536028d437ce<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">Subproject commit c21a866c7f64ca7a09d67fd8f7f2d6aff1f2634d</span></span></code>
+                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -1 +1 @@</span><br /><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">Subproject commit add3cf39f49c6b92ef1890092bb38d045a8457fa<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">Subproject commit 05354426c607711ad5f29041160383deef2dcd82</span></span></code>
                         </div>
                     </section>
                 </div>
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 24 Apr 2025, 18:15:53 (timezone Asia/Shanghai) with lowlighter/metrics@3.35.0-beta</span>
+                <span>Last updated 24 Apr 2025, 19:14:48 (timezone Asia/Shanghai) with lowlighter/metrics@3.35.0-beta</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
