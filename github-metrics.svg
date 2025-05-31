@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1109" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1069" class="">
     <defs>
         <style/>
     </defs>
@@ -89,13 +89,13 @@
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                         <path xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" d="M2.5 3.5c0-.133.058-.318.282-.55.227-.237.592-.484 1.1-.708C4.899 1.795 6.354 1.5 8 1.5c1.647 0 3.102.295 4.117.742.51.224.874.47 1.101.707.224.233.282.418.282.551 0 .133-.058.318-.282.55-.227.237-.592.484-1.1.708C11.101 5.205 9.646 5.5 8 5.5c-1.647 0-3.102-.295-4.117-.742-.51-.224-.874-.47-1.101-.707-.224-.233-.282-.418-.282-.551zM1 3.5c0-.626.292-1.165.7-1.59.406-.422.956-.767 1.579-1.041C4.525.32 6.195 0 8 0c1.805 0 3.475.32 4.722.869.622.274 1.172.62 1.578 1.04.408.426.7.965.7 1.591v9c0 .626-.292 1.165-.7 1.59-.406.422-.956.767-1.579 1.041C11.476 15.68 9.806 16 8 16c-1.805 0-3.475-.32-4.721-.869-.623-.274-1.173-.62-1.579-1.04-.408-.426-.7-.965-.7-1.591v-9zM2.5 8V5.724c.241.15.503.286.779.407C4.525 6.68 6.195 7 8 7c1.805 0 3.475-.32 4.722-.869.275-.121.537-.257.778-.407V8c0 .133-.058.318-.282.55-.227.237-.592.484-1.1.708C11.101 9.705 9.646 10 8 10c-1.647 0-3.102-.295-4.117-.742-.51-.224-.874-.47-1.101-.707C2.558 8.318 2.5 8.133 2.5 8zm0 2.225V12.5c0 .133.058.318.282.55.227.237.592.484 1.1.708 1.016.447 2.471.742 4.118.742 1.647 0 3.102-.295 4.117-.742.51-.224.874-.47 1.101-.707.224-.233.282-.418.282-.551v-2.275c-.241.15-.503.285-.778.406-1.247.549-2.917.869-4.722.869-1.805 0-3.475-.32-4.721-.869a6.236 6.236 0 01-.779-.406z"/>
                                     </svg>
-                                    404 MB used
+                                    405 MB used
                                 </div>
                                 <div class="field ">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                         <path fill-rule="evenodd" d="M2.75 1.5a.25.25 0 00-.25.25v12.5c0 .138.112.25.25.25h10.5a.25.25 0 00.25-.25V4.664a.25.25 0 00-.073-.177l-2.914-2.914a.25.25 0 00-.177-.073H2.75zM1 1.75C1 .784 1.784 0 2.75 0h7.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0113.25 16H2.75A1.75 1.75 0 011 14.25V1.75zm7 1.5a.75.75 0 01.75.75v1.5h1.5a.75.75 0 010 1.5h-1.5v1.5a.75.75 0 01-1.5 0V7h-1.5a.75.75 0 010-1.5h1.5V4A.75.75 0 018 3.25zm-3 8a.75.75 0 01.75-.75h4.5a.75.75 0 010 1.5h-4.5a.75.75 0 01-.75-.75z"/>
                                     </svg>
-                                    224k added, 36.5k removed
+                                    45.3k added, 29.5k removed
                                 </div>
                             </section>
                             <section>
@@ -138,20 +138,20 @@
             </section>
             <section class="column">
                 <h3 class="field">Most used languages</h3>
-                <small>estimation from 11.7mb of code in 5525 edited files across 591 commits</small>
+                <small>estimation from 11.7mb of code in 5531 edited files across 592 commits</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="460" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="109.6398821892561" height="8" fill="#A97BFF"/>
-                    <rect mask="url(#languages-bar)" x="109.6398821892561" y="0" width="88.08123881972426" height="8" fill="#000080"/>
-                    <rect mask="url(#languages-bar)" x="197.72112100898036" y="0" width="87.28583560703251" height="8" fill="#c22d40"/>
-                    <rect mask="url(#languages-bar)" x="285.00695661601287" y="0" width="75.08302766384186" height="8" fill="#5e5086"/>
-                    <rect mask="url(#languages-bar)" x="360.0899842798547" y="0" width="36.25354606725331" height="8" fill="#00B4AB"/>
-                    <rect mask="url(#languages-bar)" x="396.34353034710807" y="0" width="33.48788464665812" height="8" fill="#dea584"/>
-                    <rect mask="url(#languages-bar)" x="429.83141499376615" y="0" width="15.95504399833764" height="8" fill="#3572A5"/>
-                    <rect mask="url(#languages-bar)" x="445.7864589921038" y="0" width="14.213541007896211" height="8" fill="#f34b7d"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="109.546161707659" height="8" fill="#A97BFF"/>
+                    <rect mask="url(#languages-bar)" x="109.546161707659" y="0" width="88.0059467274945" height="8" fill="#000080"/>
+                    <rect mask="url(#languages-bar)" x="197.5521084351535" y="0" width="87.2112234277201" height="8" fill="#c22d40"/>
+                    <rect mask="url(#languages-bar)" x="284.7633318628736" y="0" width="75.01884647929556" height="8" fill="#5e5086"/>
+                    <rect mask="url(#languages-bar)" x="359.7821783421692" y="0" width="36.61576573535807" height="8" fill="#00B4AB"/>
+                    <rect mask="url(#languages-bar)" x="396.39794407752726" y="0" width="33.45925910808507" height="8" fill="#dea584"/>
+                    <rect mask="url(#languages-bar)" x="429.8572031856123" y="0" width="15.941405581572052" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar)" x="445.79860876718436" y="0" width="14.201391232815638" height="8" fill="#f34b7d"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -164,7 +164,7 @@
                             </div>
                             <small>
                                 <div>11.5k lines</div>
-                                <div>23.83%</div>
+                                <div>23.81%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -176,7 +176,7 @@
                             </div>
                             <small>
                                 <div>8.95k lines</div>
-                                <div>18.98%</div>
+                                <div>18.96%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -187,8 +187,8 @@
                                 Dart
                             </div>
                             <small>
-                                <div>3.93k lines</div>
-                                <div>7.88%</div>
+                                <div>3.97k lines</div>
+                                <div>7.96%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -214,7 +214,7 @@
                             </div>
                             <small>
                                 <div>9.60k lines</div>
-                                <div>19.15%</div>
+                                <div>19.13%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -226,7 +226,7 @@
                             </div>
                             <small>
                                 <div>6.48k lines</div>
-                                <div>16.32%</div>
+                                <div>16.31%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -238,7 +238,7 @@
                             </div>
                             <small>
                                 <div>3.33k lines</div>
-                                <div>7.28%</div>
+                                <div>7.27%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -617,9 +617,9 @@
                                 <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"/>
                             </svg>
                             <span class="code">1dd23be7</span>
-                            <span class="code">src/chengfen/core.clj</span>
+                            <span class="code">doc/intro.md</span>
                             <span class="code">
-                                <span class="snippet additions">++7</span>
+                                <span class="snippet additions">++3</span>
                                 <span class="snippet deletions">--0</span>
                             </span>
                         </div>
@@ -628,14 +628,14 @@
                 <div class="row">
                     <section class="snippet">
                         <div class="body markdown">
-                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -0,0 +1,7 @@</span><br /><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">(ns chengfen.core<br /></span><span class="token prefix inserted">+</span><span class="token line"> (:gen-class))<br /></span><span class="token prefix inserted">+</span><span class="token line"><br /></span><span class="token prefix inserted">+</span><span class="token line">(defn -main<br /></span><span class="token prefix inserted">+</span><span class="token line"> "I don't do a whole lot ... yet."<br /></span><span class="token prefix inserted">+</span><span class="token line"> [&amp; args]<br /></span><span class="token prefix inserted">+</span><span class="token line"> (println "Hello, World!"))</span></span></code>
+                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -0,0 +1,3 @@</span><br /><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line"># Introduction to chengfen<br /></span><span class="token prefix inserted">+</span><span class="token line"><br /></span><span class="token prefix inserted">+</span><span class="token line">TODO: write [great documentation](http://jacobian.org/writing/what-to-write/)</span></span></code>
                         </div>
                     </section>
                 </div>
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 1 Jun 2025, 04:15:22 (timezone Asia/Shanghai) with lowlighter/metrics@3.35.0-beta</span>
+                <span>Last updated 1 Jun 2025, 05:14:23 (timezone Asia/Shanghai) with lowlighter/metrics@3.35.0-beta</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
