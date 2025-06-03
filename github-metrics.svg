@@ -95,7 +95,7 @@
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                         <path fill-rule="evenodd" d="M2.75 1.5a.25.25 0 00-.25.25v12.5c0 .138.112.25.25.25h10.5a.25.25 0 00.25-.25V4.664a.25.25 0 00-.073-.177l-2.914-2.914a.25.25 0 00-.177-.073H2.75zM1 1.75C1 .784 1.784 0 2.75 0h7.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0113.25 16H2.75A1.75 1.75 0 011 14.25V1.75zm7 1.5a.75.75 0 01.75.75v1.5h1.5a.75.75 0 010 1.5h-1.5v1.5a.75.75 0 01-1.5 0V7h-1.5a.75.75 0 010-1.5h1.5V4A.75.75 0 018 3.25zm-3 8a.75.75 0 01.75-.75h4.5a.75.75 0 010 1.5h-4.5a.75.75 0 01-.75-.75z"/>
                                     </svg>
-                                    203k added, 27.7k removed
+                                    239k added, 52.6k removed
                                 </div>
                             </section>
                             <section>
@@ -258,20 +258,20 @@
             </section>
             <section class="column">
                 <h3 class="field">Recently used languages</h3>
-                <small>estimation from 184kb of code in 283 edited files across 134 commits over last 11 days</small>
+                <small>estimation from 197kb of code in 299 edited files across 136 commits over last 11 days</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="460" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="357.6344662798069" height="8" fill="#00B4AB"/>
-                    <rect mask="url(#languages-bar)" x="357.6344662798069" y="0" width="88.256205198225" height="8" fill="#5e5086"/>
-                    <rect mask="url(#languages-bar)" x="445.8906714780319" y="0" width="4.280652135043319" height="8" fill="#db5855"/>
-                    <rect mask="url(#languages-bar)" x="450.17132361307523" y="0" width="4.164756749727735" height="8" fill="#dea584"/>
-                    <rect mask="url(#languages-bar)" x="454.33608036280293" y="0" width="3.7609921815315097" height="8" fill="#384d54"/>
-                    <rect mask="url(#languages-bar)" x="458.0970725443344" y="0" width="1.5253328131857415" height="8" fill="#f34b7d"/>
-                    <rect mask="url(#languages-bar)" x="459.62240535752017" y="0" width="0.2355293314477983" height="8" fill="#000080"/>
-                    <rect mask="url(#languages-bar)" x="459.85793468896793" y="0" width="0.14206531103200534" height="8" fill="#DA3434"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="364.6171683254784" height="8" fill="#00B4AB"/>
+                    <rect mask="url(#languages-bar)" x="364.6171683254784" y="0" width="81.7552286449942" height="8" fill="#5e5086"/>
+                    <rect mask="url(#languages-bar)" x="446.3723969704726" y="0" width="3.9653381115143125" height="8" fill="#db5855"/>
+                    <rect mask="url(#languages-bar)" x="450.3377350819869" y="0" width="3.8579796124252783" height="8" fill="#dea584"/>
+                    <rect mask="url(#languages-bar)" x="454.1957146944122" y="0" width="3.4839564543086445" height="8" fill="#384d54"/>
+                    <rect mask="url(#languages-bar)" x="457.67967114872084" y="0" width="1.908210741872826" height="8" fill="#f34b7d"/>
+                    <rect mask="url(#languages-bar)" x="459.5878818905936" y="0" width="0.2181801755680364" height="8" fill="#000080"/>
+                    <rect mask="url(#languages-bar)" x="459.80606206616164" y="0" width="0.19393793383825456" height="8" fill="#DA3434"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -283,8 +283,8 @@
                                 Dart
                             </div>
                             <small>
-                                <div>3.73k lines</div>
-                                <div>77.75%</div>
+                                <div>4.05k lines</div>
+                                <div>79.26%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -296,7 +296,7 @@
                             </div>
                             <small>
                                 <div>32 lines</div>
-                                <div>0.93%</div>
+                                <div>0.86%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -308,7 +308,7 @@
                             </div>
                             <small>
                                 <div>38 lines</div>
-                                <div>0.82%</div>
+                                <div>0.76%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -334,7 +334,7 @@
                             </div>
                             <small>
                                 <div>782 lines</div>
-                                <div>19.19%</div>
+                                <div>17.77%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -346,7 +346,7 @@
                             </div>
                             <small>
                                 <div>22 lines</div>
-                                <div>0.91%</div>
+                                <div>0.84%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -357,8 +357,8 @@
                                 C++
                             </div>
                             <small>
-                                <div>7 lines</div>
-                                <div>0.33%</div>
+                                <div>10 lines</div>
+                                <div>0.41%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -369,8 +369,8 @@
                                 CMake
                             </div>
                             <small>
-                                <div>2 lines</div>
-                                <div>0.03%</div>
+                                <div>3 lines</div>
+                                <div>0.04%</div>
                             </small>
                         </div>
                     </section>
@@ -643,7 +643,7 @@
                                 <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"/>
                             </svg>
                             <span class="code">d9543811</span>
-                            <span class="code">10_sub.zip</span>
+                            <span class="code">10_sub.z01</span>
                             <span class="code">
                                 <span class="snippet additions">++0</span>
                                 <span class="snippet deletions">--3</span>
@@ -654,14 +654,14 @@
                 <div class="row">
                     <section class="snippet">
                         <div class="body markdown">
-                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -1,3 +0,0 @@</span><br /><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">version https://git-lfs.github.com/spec/v1<br /></span><span class="token prefix deleted">-</span><span class="token line">oid sha256:8667ebef3b4c2fafa62ac693f58124916b29dc52d7f9107050d594c23d218700<br /></span><span class="token prefix deleted">-</span><span class="token line">size 566954504</span></span></code>
+                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -1,3 +0,0 @@</span><br /><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">version https://git-lfs.github.com/spec/v1<br /></span><span class="token prefix deleted">-</span><span class="token line">oid sha256:fdcc766c2c41bdd8ccc2013d4e3aedd9a172a722053d409b692d29939baf3b69<br /></span><span class="token prefix deleted">-</span><span class="token line">size 1073741824</span></span></code>
                         </div>
                     </section>
                 </div>
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 3 Jun 2025, 10:45:31 (timezone Asia/Shanghai) with lowlighter/metrics@3.35.0-beta</span>
+                <span>Last updated 3 Jun 2025, 11:36:12 (timezone Asia/Shanghai) with lowlighter/metrics@3.35.0-beta</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
