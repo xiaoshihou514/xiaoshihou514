@@ -57,7 +57,7 @@ lang_stats.sort(key=lambda x: x["lines"], reverse=True)
 # Calculate percentages and assign colors
 for l in lang_stats:
     l["percent"] = l["lines"] / total_lines * 100
-    l["color"] = colors.get(l["name"], {}).get("color", "#888888")
+    l["color"] = colors.get(l["name"], {}).get("color", "#000000")
 
 # SVG setup
 width = 800

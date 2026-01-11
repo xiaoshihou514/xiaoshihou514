@@ -60,7 +60,7 @@ for lang, lines in lang_totals.items():
             "name": lang,
             "lines": lines,
             "percent": lines / total_lines * 100,
-            "color": colors.get(lang, {}).get("color", "#888888"),
+            "color": colors.get(lang, {}).get("color", "#000000"),
         }
     )
 
