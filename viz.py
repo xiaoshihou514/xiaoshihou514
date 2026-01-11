@@ -8,7 +8,25 @@ with open("colors.json") as f:
     colors = json.load(f)
 
 # Set languages to skip
-skip_langs = {"Total", "JSON", "HTML", "Markdown"}
+skip_langs = {
+    "Total",
+    "JSON",
+    "HTML",
+    "SVG",
+    "YAML",
+    "TOML",
+    "JavaScript",
+    "CSS",
+    "Perl",
+    "Plain Text",
+    "XML",
+    "MDX",
+    "INI",
+    "Markdown",
+    "TypeScript",
+    "TSX",
+    "ReStructuredText",
+}
 
 # Minimum LOC to display
 min_lines = 100
@@ -72,7 +90,7 @@ for lang in lang_stats:
         f'<circle cx="{x_text + circle_radius}" cy="{y_stats - 4}" r="{circle_radius}" fill="{lang["color"]}" />'
     )
     # Text
-    text = f'{lang["name"]} ({lang["lines"]} lines, {lang["percent"]:.1f}%)'
+    text = f"{lang['name']} ({lang['lines']} lines, {lang['percent']:.1f}%)"
     svg_lines.append(
         f'<text x="{x_text + 2 * circle_radius + 5}" y="{y_stats}" font-size="15" font-family="sans-serif" fill="#FFF">{text}</text>'
     )
@@ -89,5 +107,7 @@ svg_lines.append("</svg>")
 with open("all.svg", "w") as f:
     f.write("\n".join(svg_lines))
 
-print(f"Total lines (excluding skipped languages and small langs < {min_lines} LOC): {total_lines}")
+print(
+    f"Total lines (excluding skipped languages and small langs < {min_lines} LOC): {total_lines}"
+)
 print("SVG generated: all.svg")

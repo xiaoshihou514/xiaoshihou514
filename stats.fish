@@ -23,12 +23,12 @@ end
 mkdir temp
 cd temp
 
+echo $TOKEN | gh auth login --with-token
 for repo in $all_repos
   if not test (echo $repo | grep nvimdev)
-    git clone --quiet https://github.com/$repo > /dev/null 2>&1
+    gh repo clone $repo -- --quiet > /dev/null 2>&1
   end
 end
 tokei -o json > ../stats.json
 
-ls
 echo (ls | wc -l) repos queried
