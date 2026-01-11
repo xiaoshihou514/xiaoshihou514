@@ -4,7 +4,7 @@
 <rect x="601.6636978981119" y="40" width="121.98076237976487" height="50" fill="#3D6117"/>
 <rect x="723.6444602778768" y="40" width="73.62546015912599" height="50" fill="#239dad"/>
 <rect x="797.2699204370027" y="40" width="6.840042750267189" height="50" fill="#083fa1"/>
-<rect x="804.10996318727" y="40" width="5.890036812730079" height="50" fill="#888888"/>
+<rect x="804.10996318727" y="40" width="5.890036812730079" height="50" fill="#000000"/>
 <circle cx="16" cy="116" r="6" fill="None" />
 <text x="27" y="120" font-size="15" font-family="sans-serif" fill="#FFF">Lean (3.4k lines, 40.2%)</text>
 <circle cx="266" cy="116" r="6" fill="#c22d40" />
@@ -15,6 +15,6 @@
 <text x="27" y="140" font-size="15" font-family="sans-serif" fill="#FFF">Typst (775 lines, 9.2%)</text>
 <circle cx="266" cy="136" r="6" fill="#083fa1" />
 <text x="277" y="140" font-size="15" font-family="sans-serif" fill="#FFF">Markdown (72 lines, 0.9%)</text>
-<circle cx="516" cy="136" r="6" fill="#888888" />
+<circle cx="516" cy="136" r="6" fill="#000000" />
 <text x="527" y="140" font-size="15" font-family="sans-serif" fill="#FFF">Other (62 lines, 0.7%)</text>
 </svg>
