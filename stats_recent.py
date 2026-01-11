@@ -1,7 +1,7 @@
 import os
 import subprocess
 import json
-from datetime import datetime, timedelta
+import datetime
 from pathlib import Path
 
 # -------------- Config --------------
@@ -20,13 +20,13 @@ for lang_key, data in LANGUAGES_JSON["languages"].items():
         EXT_LANG[ext.lower()] = data.get("name", lang_key)  # Use 'name' if present, otherwise key
 
 # Time window
-since_dt = datetime.utcnow() - timedelta(days=30)
+since_dt = datetime.datetime.now(datetime.UTC) - datetime.timedelta(days=30)
 since_str = since_dt.strftime("%Y-%m-%dT%H:%M:%SZ")
 
 # -------------- Helpers --------------
 def get_language(filename: str) -> str:
     _, ext = os.path.splitext(filename)
-    ext = ext.lower()
+    ext = ext[1:]
     return EXT_LANG.get(ext, "Other")
 
 def git_commits(repo_path: Path):
@@ -73,7 +73,7 @@ for repo_path in REPOS_DIR.iterdir():
     if not repo_path.is_dir():
         continue
     repo_name = repo_path.name
-    print(f"Processing {repo_name}...")
+    print(f"Processing...")
 
     commits = git_commits(repo_path)
     if not commits:

@@ -1,26 +1,40 @@
+#!/usr/bin/env python3
 import json
 import glob
-import hashlib
 
 # ---------- helpers ----------
 
-def fmt_lines(n: int) -> str:
-    """Format LOC as 1k, 1.2k, etc."""
-    if n < 1000:
-        return str(n)
-    v = n / 1000
-    return f"{int(v)}k" if v.is_integer() else f"{v:.1f}k"
 
-def trunc(s: str, n=12) -> str:
+def fmt_lines(n):
+    """Format LOC as 1k, 1.2k, etc."""
+    return f"{n / 1000:.1f}k" if n >= 1000 else str(n)
+
+
+def trunc(s, n=12):
     """Truncate name to max n chars."""
     return s if len(s) <= n else s[: n - 1] + "…"
 
-def color_for(name: str) -> str:
-    """Deterministic color per language."""
-    h = hashlib.md5(name.encode()).hexdigest()
-    return f"#{h[:6]}"
 
-# ---------- load data ----------
+# ---------- load colors ----------
+
+with open("colors.json") as f:
+    colors = json.load(f)
+
+# ---------- load recent data ----------
+
+skip_langs = {
+    "JSON",
+    "HTML",
+    "SVG",
+    "YAML",
+    "TOML",
+    "Plain Text",
+    "XML",
+    "MDX",
+    "INI",
+    "TSX",
+    "ReStructuredText",
+}
 
 lang_totals = {}
 
@@ -29,7 +43,7 @@ for path in glob.glob("recent/*.json"):
         data = json.load(f)
         per_lang = data.get("loc_changed_per_language", {})
         for lang, loc in per_lang.items():
-            if loc <= 0:
+            if lang in skip_langs:
                 continue
             lang_totals[lang] = lang_totals.get(lang, 0) + loc
 
@@ -37,87 +51,77 @@ if not lang_totals:
     raise SystemExit("No recent data found")
 
 # Convert to list of dicts
-entries = []
+lang_stats = []
+total_lines = sum(lang_totals.values())
+
 for lang, lines in lang_totals.items():
-    entries.append({
-        "name": lang,
-        "lines": lines,
-        "color": color_for(lang)
-    })
+    lang_stats.append(
+        {
+            "name": lang,
+            "lines": lines,
+            "percent": lines / total_lines * 100,
+            "color": colors.get(lang, {}).get("color", "#888888"),
+        }
+    )
 
 # Sort descending by lines
-entries.sort(key=lambda x: x["lines"], reverse=True)
-total_lines = sum(e["lines"] for e in entries)
+lang_stats.sort(key=lambda x: x["lines"], reverse=True)
 
-for e in entries:
-    e["percent"] = e["lines"] / total_lines * 100
-
-# ---------- SVG layout ----------
+# ---------- SVG setup ----------
 
 width = 800
-bar_height = 40
-stats_gap = 25
-row_height = 20
-cols = 3
+bar_height = 50
+gap = 30
+stats_gap = 30
+circle_radius = 6
+text_line_height = 20
+height = bar_height + gap + ((len(lang_stats) + 2) // 3) * text_line_height + 50
 
-height = (
-    40
-    + bar_height
-    + stats_gap
-    + ((len(entries) + cols - 1) // cols) * row_height
-    + 20
-)
-
-svg = [
-    f'<svg width="{width}" height="{height}" xmlns="http://www.w3.org/2000/svg">',
-    '<style>text{font-family:sans-serif}</style>',
+svg_lines = [
+    f'<svg width="{width}" height="{height}" xmlns="http://www.w3.org/2000/svg">'
 ]
 
-# ---------- stacked bar ----------
-
+# Draw horizontal stacked bar
 x = 10
-y = 30
-
-for e in entries:
-    w = width * e["percent"] / 100
-    svg.append(
-        f'<rect x="{x}" y="{y}" width="{w}" height="{bar_height}" fill="{e["color"]}"/>'
+y = 40
+for lang in lang_stats:
+    bar_width = width * lang["percent"] / 100
+    svg_lines.append(
+        f'<rect x="{x}" y="{y}" width="{bar_width}" height="{bar_height}" fill="{lang["color"]}"/>'
     )
-    x += w
+    x += bar_width
 
-# ---------- stats text ----------
-
-y_text = y + bar_height + stats_gap
-x_start = 10
-x_gap = width // cols
-
-for i, e in enumerate(entries):
-    col = i % cols
-    row = i // cols
-
-    x = x_start + col * x_gap
-    y_pos = y_text + row * row_height
-
-    name = trunc(e["name"])
-    lines = fmt_lines(e["lines"])
-
-    # color dot
-    svg.append(
-        f'<circle cx="{x}" cy="{y_pos - 4}" r="5" fill="{e["color"]}"/>'
+# Draw language stats below (3 per line) with colored circle
+y_stats = y + bar_height + stats_gap
+count = 0
+x_text = 10
+for lang in lang_stats:
+    # circle
+    svg_lines.append(
+        f'<circle cx="{x_text + circle_radius}" cy="{y_stats - 4}" r="{circle_radius}" fill="{lang["color"]}" />'
+    )
+    # text
+    name = trunc(lang["name"])
+    lines_str = fmt_lines(lang["lines"])
+    text = f"{name} ({lines_str} lines, {lang['percent']:.1f}%)"
+    svg_lines.append(
+        f'<text x="{x_text + 2 * circle_radius + 5}" y="{y_stats}" font-size="15" font-family="sans-serif" fill="#FFF">{text}</text>'
     )
 
-    svg.append(
-        f'<text x="{x + 10}" y="{y_pos}" font-size="13" fill="#fff">'
-        f'{name} ({lines}, {e["percent"]:.1f}%)'
-        f'</text>'
-    )
+    count += 1
+    if count % 3 == 0:
+        y_stats += text_line_height
+        x_text = 10
+    else:
+        x_text += 250
 
-svg.append("</svg>")
+svg_lines.append("</svg>")
 
-# ---------- write ----------
-
+# Write SVG
 with open("recent.svg", "w") as f:
-    f.write("\n".join(svg))
+    f.write("\n".join(svg_lines))
 
-print(f"Recent LOC total (all languages): {total_lines}")
+print(
+    f"Recent LOC total (excluding skipped languages): {total_lines}"
+)
 print("SVG generated: recent.svg")

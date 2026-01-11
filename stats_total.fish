@@ -27,6 +27,7 @@ cd temp
 echo $TOKEN | gh auth login --with-token
 for repo in $all_repos
   if not test (echo $repo | grep nvimdev)
+    echo "Cloning..."
     gh repo clone $repo -- --quiet > /dev/null 2>&1
   end
 end
