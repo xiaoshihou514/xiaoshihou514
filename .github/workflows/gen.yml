@@ -26,8 +26,9 @@ jobs:
           USERNAME: ${{ secrets.USERNAME }}
         run: |
           set -ex
-          ./stats.fish
+          ./stats_total.fish
           python viz_total.py
+          python stats_recent.py
           python viz_recent.py
 
       - name: Commit SVG and update README

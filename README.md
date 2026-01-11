@@ -1,2 +1,4 @@
 ![](./total.svg)
-<!-- ![](./recent.svg) -->
+
+### Recent commits
+![](./recent.svg)

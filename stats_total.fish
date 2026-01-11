@@ -33,8 +33,3 @@ end
 tokei -o json > ../stats_total.json
 
 echo (count $all_repos) repos queried
-
-# Recent
-set since (date -u -d "1 month ago" +"%Y-%m-%dT%H:%M:%SZ")
-
-mkdir -p ../recent
