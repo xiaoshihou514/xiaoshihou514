@@ -1,0 +1,38 @@
+name: Get stats
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch:
+  push:
+    branches: ["main"]
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup tools
+        run: |
+          sudo apt update
+          sudo apt install -y fish cargo jq git
+          cargo install tokei
+
+      - name: Run stats and generate SVG
+        env:
+          TOKEN: ${{ secrets.GH_TOKEN }}
+          USERNAME: ${{ secrets.USERNAME }}
+        run: |
+          set -ex
+          ./stats.fish
+          python viz.py
+
+      - name: Commit SVG and update README
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Update stats"
+          git push -f
