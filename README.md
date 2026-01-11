@@ -1,1 +1,2 @@
-![](./all.svg)
+![](./total.svg)
+<!-- ![](./recent.svg) -->

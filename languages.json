@@ -2022,7 +2022,7 @@
       "extensions":["wy"]
     },
     "WGSL": {
-      "name": "WGSL",
+      "name": "WebGPU Shader Language",
       "line_comment": ["//"],
       "extensions": ["wgsl"]
     },

@@ -3,6 +3,7 @@
 echo "Length of token:" (string length -- $TOKEN)
 echo "Length of username:" (string length -- $USERNAME)
 
+# All
 set page 1
 set all_repos
 
@@ -29,6 +30,11 @@ for repo in $all_repos
     gh repo clone $repo -- --quiet > /dev/null 2>&1
   end
 end
-tokei -o json > ../stats.json
+tokei -o json > ../stats_total.json
 
-echo (ls | wc -l) repos queried
+echo (count $all_repos) repos queried
+
+# Recent
+set since (date -u -d "1 month ago" +"%Y-%m-%dT%H:%M:%SZ")
+
+mkdir -p ../recent

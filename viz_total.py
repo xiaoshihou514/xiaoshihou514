@@ -1,7 +1,10 @@
 import json
 
+def fmt_lines(n):
+    return f"{n/1000:.1f}k" if n >= 1000 else str(n)
+
 # Load data
-with open("stats.json") as f:
+with open("stats_total.json") as f:
     stats = json.load(f)  # output of tokei -o json
 
 with open("colors.json") as f:
@@ -90,7 +93,10 @@ for lang in lang_stats:
         f'<circle cx="{x_text + circle_radius}" cy="{y_stats - 4}" r="{circle_radius}" fill="{lang["color"]}" />'
     )
     # Text
-    text = f"{lang['name']} ({lang['lines']} lines, {lang['percent']:.1f}%)"
+    name = lang["name"] if len(lang["name"]) <= 12 else lang["name"][:11] + "…"
+    lines_str = fmt_lines(lang["lines"])
+
+    text = f"{name} ({lines_str} lines, {lang['percent']:.1f}%)"
     svg_lines.append(
         f'<text x="{x_text + 2 * circle_radius + 5}" y="{y_stats}" font-size="15" font-family="sans-serif" fill="#FFF">{text}</text>'
     )
@@ -104,10 +110,10 @@ for lang in lang_stats:
 svg_lines.append("</svg>")
 
 # Write SVG
-with open("all.svg", "w") as f:
+with open("total.svg", "w") as f:
     f.write("\n".join(svg_lines))
 
 print(
     f"Total lines (excluding skipped languages and small langs < {min_lines} LOC): {total_lines}"
 )
-print("SVG generated: all.svg")
+print("SVG generated: total.svg")

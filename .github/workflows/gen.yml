@@ -27,7 +27,8 @@ jobs:
         run: |
           set -ex
           ./stats.fish
-          python viz.py
+          python viz_total.py
+          python viz_recent.py
 
       - name: Commit SVG and update README
         run: |
