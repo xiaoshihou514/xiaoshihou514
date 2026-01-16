@@ -1,20 +1,20 @@
 <svg width="800" height="170" xmlns="http://www.w3.org/2000/svg">
-<rect x="10" y="40" width="370.9827539009034" height="50" fill="None"/>
-<rect x="380.9827539009034" y="40" width="192.28031754722144" height="50" fill="#c22d40"/>
-<rect x="573.2630714481248" y="40" width="140.59676977826442" height="50" fill="#3D6117"/>
-<rect x="713.8598412263892" y="40" width="84.86175745962224" height="50" fill="#239dad"/>
-<rect x="798.7215986860115" y="40" width="7.445934848070079" height="50" fill="#083fa1"/>
-<rect x="806.1675335340816" y="40" width="3.832466465918423" height="50" fill="#000000"/>
+<rect x="10" y="40" width="378.01952580195257" height="50" fill="None"/>
+<rect x="388.01952580195257" y="40" width="182.20362622036265" height="50" fill="#c22d40"/>
+<rect x="570.2231520223152" y="40" width="143.26359832635984" height="50" fill="#3D6117"/>
+<rect x="713.4867503486751" y="40" width="86.47140864714088" height="50" fill="#239dad"/>
+<rect x="799.9581589958159" y="40" width="7.587168758716876" height="50" fill="#083fa1"/>
+<rect x="807.5453277545328" y="40" width="2.4546722454672243" height="50" fill="#000000"/>
 <circle cx="16" cy="116" r="6" fill="None" />
-<text x="27" y="120" font-size="15" font-family="sans-serif" fill="#FFF">Lean (3.4k lines, 46.4%)</text>
+<text x="27" y="120" font-size="15" font-family="sans-serif" fill="#FFF">Lean (3.4k lines, 47.3%)</text>
 <circle cx="266" cy="116" r="6" fill="#c22d40" />
-<text x="277" y="120" font-size="15" font-family="sans-serif" fill="#FFF">Scala (1.8k lines, 24.0%)</text>
+<text x="277" y="120" font-size="15" font-family="sans-serif" fill="#FFF">Scala (1.6k lines, 22.8%)</text>
 <circle cx="516" cy="116" r="6" fill="#3D6117" />
-<text x="527" y="120" font-size="15" font-family="sans-serif" fill="#FFF">TeX (1.3k lines, 17.6%)</text>
+<text x="527" y="120" font-size="15" font-family="sans-serif" fill="#FFF">TeX (1.3k lines, 17.9%)</text>
 <circle cx="16" cy="136" r="6" fill="#239dad" />
-<text x="27" y="140" font-size="15" font-family="sans-serif" fill="#FFF">Typst (775 lines, 10.6%)</text>
+<text x="27" y="140" font-size="15" font-family="sans-serif" fill="#FFF">Typst (775 lines, 10.8%)</text>
 <circle cx="266" cy="136" r="6" fill="#083fa1" />
 <text x="277" y="140" font-size="15" font-family="sans-serif" fill="#FFF">Markdown (68 lines, 0.9%)</text>
 <circle cx="516" cy="136" r="6" fill="#000000" />
-<text x="527" y="140" font-size="15" font-family="sans-serif" fill="#FFF">Other (35 lines, 0.5%)</text>
+<text x="527" y="140" font-size="15" font-family="sans-serif" fill="#FFF">Other (22 lines, 0.3%)</text>
 </svg>
