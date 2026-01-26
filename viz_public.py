@@ -72,7 +72,8 @@ height = bar_height + gap + ((len(lang_stats) + 2) // 3) * text_line_height + 50
 
 # Start SVG
 svg_lines = [
-    f'<svg width="{width}" height="{height}" xmlns="http://www.w3.org/2000/svg">'
+    f'<svg width="{width}" height="{height}" xmlns="http://www.w3.org/2000/svg">',
+    f'<rect width="{width}" height="{height}" fill="#212830"/>',
 ]
 
 # Draw horizontal stacked bar

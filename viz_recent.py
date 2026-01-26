@@ -78,7 +78,8 @@ text_line_height = 20
 height = bar_height + gap + ((len(lang_stats) + 2) // 3) * text_line_height + 50
 
 svg_lines = [
-    f'<svg width="{width}" height="{height}" xmlns="http://www.w3.org/2000/svg">'
+    f'<svg width="{width}" height="{height}" xmlns="http://www.w3.org/2000/svg">',
+    f'<rect width="{width}" height="{height}" fill="#212830"/>',
 ]
 
 # Draw horizontal stacked bar
@@ -121,7 +122,5 @@ svg_lines.append("</svg>")
 with open("recent.svg", "w") as f:
     f.write("\n".join(svg_lines))
 
-print(
-    f"Recent LOC total (excluding skipped languages): {total_lines}"
-)
+print(f"Recent LOC total (excluding skipped languages): {total_lines}")
 print("SVG generated: recent.svg")

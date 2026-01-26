@@ -17,17 +17,21 @@ with open("languages.json") as f:
 EXT_LANG = {}
 for lang_key, data in LANGUAGES_JSON["languages"].items():
     for ext in data.get("extensions", []):
-        EXT_LANG[ext.lower()] = data.get("name", lang_key)  # Use 'name' if present, otherwise key
+        EXT_LANG[ext.lower()] = data.get(
+            "name", lang_key
+        )  # Use 'name' if present, otherwise key
 
 # Time window
 since_dt = datetime.datetime.now(datetime.UTC) - datetime.timedelta(days=30)
 since_str = since_dt.strftime("%Y-%m-%dT%H:%M:%SZ")
+
 
 # -------------- Helpers --------------
 def get_language(filename: str) -> str:
     _, ext = os.path.splitext(filename)
     ext = ext[1:]
     return EXT_LANG.get(ext, "Other")
+
 
 def git_commits(repo_path: Path):
     """Return list of commit SHAs by USERNAME in last 30 days"""
@@ -45,6 +49,7 @@ def git_commits(repo_path: Path):
         print(f"Git log failed for {repo_path}")
         return []
     return result.stdout.strip().splitlines()
+
 
 def git_commit_stats(repo_path: Path, sha: str):
     """Return list of (additions, deletions, filename) for a commit"""
@@ -67,6 +72,7 @@ def git_commit_stats(repo_path: Path, sha: str):
             continue
         stats.append((added, deleted, filename))
     return stats
+
 
 # -------------- Main --------------
 for repo_path in REPOS_DIR.iterdir():
@@ -93,10 +99,14 @@ for repo_path in REPOS_DIR.iterdir():
     # Write per-repo JSON
     output_file = OUTPUT_DIR / f"{USERNAME}_{repo_name}.json"
     with open(output_file, "w") as f:
-        json.dump({
-            "repo": repo_name,
-            "since": since_str,
-            "loc_changed_per_language": lang_totals
-        }, f, indent=2)
+        json.dump(
+            {
+                "repo": repo_name,
+                "since": since_str,
+                "loc_changed_per_language": lang_totals,
+            },
+            f,
+            indent=2,
+        )
 
 print("Done. Data written to recent/*.json")
