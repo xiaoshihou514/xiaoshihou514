@@ -1,4 +1,5 @@
 <svg width="800" height="170" xmlns="http://www.w3.org/2000/svg">
+<rect width="800" height="170" fill="#212830"/>
 <rect x="10" y="40" width="547.1134436818733" height="50" fill="None"/>
 <rect x="557.1134436818733" y="40" width="183.60920468308436" height="50" fill="#c22d40"/>
 <rect x="740.7226483649576" y="40" width="55.228098506257574" height="50" fill="#3D6117"/>
