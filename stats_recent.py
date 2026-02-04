@@ -6,6 +6,7 @@ from pathlib import Path
 
 # -------------- Config --------------
 USERNAME = os.environ.get("USERNAME", "")
+GIT_USERNAME = os.environ.get("GIT_USERNAME", "")
 REPOS_DIR = Path("temp")
 OUTPUT_DIR = Path("recent")
 OUTPUT_DIR.mkdir(exist_ok=True)
@@ -27,11 +28,9 @@ since_str = since_dt.strftime("%Y-%m-%dT%H:%M:%SZ")
 
 
 # -------------- Helpers --------------
-def get_language(filename: str) -> str:
+def get_language(filename: str):
     _, ext = os.path.splitext(filename)
-    ext = ext[1:]
-    return EXT_LANG.get(ext, "Other")
-
+    return EXT_LANG.get(ext[1:])
 
 def git_commits(repo_path: Path):
     """Return list of commit SHAs by USERNAME in last 30 days"""
@@ -44,11 +43,25 @@ def git_commits(repo_path: Path):
         f"--author={USERNAME}",
         "--pretty=format:%H",
     ]
-    result = subprocess.run(cmd, capture_output=True, text=True)
-    if result.returncode != 0:
+    handle = subprocess.run(cmd, capture_output=True, text=True)
+    if handle.returncode != 0:
         print(f"Git log failed for {repo_path}")
         return []
-    return result.stdout.strip().splitlines()
+    result = handle.stdout.strip().splitlines()
+    cmd = [
+        "git",
+        "-C",
+        str(repo_path),
+        "log",
+        f"--since={since_str}",
+        f"--author={GIT_USERNAME}",
+        "--pretty=format:%H",
+    ]
+    handle = subprocess.run(cmd, capture_output=True, text=True)
+    if handle.returncode != 0:
+        print(f"Git log failed for {repo_path}")
+        return []
+    return result + handle.stdout.strip().splitlines()
 
 
 def git_commit_stats(repo_path: Path, sha: str):
@@ -90,7 +103,8 @@ for repo_path in REPOS_DIR.iterdir():
     for sha in commits:
         for added, deleted, filename in git_commit_stats(repo_path, sha):
             lang = get_language(filename)
-            lang_totals[lang] = lang_totals.get(lang, 0) + added + deleted
+            if lang:
+                lang_totals[lang] = lang_totals.get(lang, 0) + added + deleted
 
     # Skip repos with no LOC changes
     if not lang_totals:
