@@ -1,25 +1,25 @@
 <svg width="800" height="250" xmlns="http://www.w3.org/2000/svg">
 <rect width="800" height="250" fill="#212830"/>
-<rect x="10" y="40" width="334.8141631845172" height="50" fill="None"/>
-<rect x="344.8141631845172" y="40" width="331.8818268455392" height="50" fill="#00B4AB"/>
-<rect x="676.6959900300565" y="40" width="28.61960266842607" height="50" fill="#083fa1"/>
-<rect x="705.3155926984825" y="40" width="17.535371307088923" height="50" fill="#555555"/>
-<rect x="722.8509640055714" y="40" width="16.831610585734182" height="50" fill="#dea584"/>
-<rect x="739.6825745913056" y="40" width="13.37145370574005" height="50" fill="#239dad"/>
-<rect x="753.0540282970456" y="40" width="11.318818268455392" height="50" fill="#A97BFF"/>
-<rect x="764.372846565501" y="40" width="11.084231361337144" height="50" fill="#89e051"/>
-<rect x="775.4570779268382" y="40" width="9.969943552525475" height="50" fill="#3572A5"/>
-<rect x="785.4270214793637" y="40" width="6.099259585074409" height="50" fill="#41b883"/>
-<rect x="791.5262810644381" y="40" width="5.923319404735723" height="50" fill="#DA3434"/>
-<rect x="797.4496004691738" y="40" width="5.336852136940107" height="50" fill="#000000"/>
-<rect x="802.7864526061139" y="40" width="3.98797742101019" height="50" fill="#000000"/>
-<rect x="806.7744300271241" y="40" width="1.993988710505095" height="50" fill="#012456"/>
-<rect x="808.7684187376292" y="40" width="0.8210541749138627" height="50" fill="#000000"/>
-<rect x="809.5894729125431" y="40" width="0.17594018033868483" height="50" fill="#000080"/>
-<rect x="809.7654130928818" y="40" width="0.17594018033868483" height="50" fill="#3178c6"/>
-<rect x="809.9413532732204" y="40" width="0.05864672677956161" height="50" fill="#74283c"/>
+<rect x="10" y="40" width="334.5443891004981" height="50" fill="None"/>
+<rect x="344.5443891004981" y="40" width="331.6144154702608" height="50" fill="#00B4AB"/>
+<rect x="676.1588045707589" y="40" width="28.596542631116318" height="50" fill="#083fa1"/>
+<rect x="704.7553472018752" y="40" width="17.52124230881922" height="50" fill="#555555"/>
+<rect x="722.2765895106944" y="40" width="16.81804863756226" height="50" fill="#dea584"/>
+<rect x="739.0946381482566" y="40" width="13.360679753882215" height="50" fill="#239dad"/>
+<rect x="752.4553179021389" y="40" width="11.309698212716084" height="50" fill="#A97BFF"/>
+<rect x="763.7650161148549" y="40" width="11.075300322297101" height="50" fill="#89e051"/>
+<rect x="774.8403164371521" y="40" width="9.961910342806915" height="50" fill="#3572A5"/>
+<rect x="784.802226779959" y="40" width="6.094345150893641" height="50" fill="#41b883"/>
+<rect x="790.8965719308527" y="40" width="5.918546733079403" height="50" fill="#DA3434"/>
+<rect x="796.8151186639321" y="40" width="5.3325520070319365" height="50" fill="#000000"/>
+<rect x="802.1476706709641" y="40" width="3.9847641371227653" height="50" fill="#000000"/>
+<rect x="806.1324348080868" y="40" width="1.9923820685613827" height="50" fill="#012456"/>
+<rect x="808.1248168766482" y="40" width="1.1719894520949312" height="50" fill="#000000"/>
+<rect x="809.2968063287432" y="40" width="0.46879578083797246" height="50" fill="#000080"/>
+<rect x="809.7656021095811" y="40" width="0.17579841781423966" height="50" fill="#3178c6"/>
+<rect x="809.9414005273953" y="40" width="0.05859947260474656" height="50" fill="#74283c"/>
 <circle cx="16" cy="116" r="6" fill="None" />
-<text x="27" y="120" font-size="15" font-family="sans-serif" fill="#FFF">Lean (5.7k lines, 41.9%)</text>
+<text x="27" y="120" font-size="15" font-family="sans-serif" fill="#FFF">Lean (5.7k lines, 41.8%)</text>
 <circle cx="266" cy="116" r="6" fill="#00B4AB" />
 <text x="277" y="120" font-size="15" font-family="sans-serif" fill="#FFF">Dart (5.7k lines, 41.5%)</text>
 <circle cx="516" cy="116" r="6" fill="#083fa1" />
@@ -47,9 +47,9 @@
 <circle cx="266" cy="196" r="6" fill="#012456" />
 <text x="277" y="200" font-size="15" font-family="sans-serif" fill="#FFF">PowerShell (34 lines, 0.2%)</text>
 <circle cx="516" cy="196" r="6" fill="#000000" />
-<text x="527" y="200" font-size="15" font-family="sans-serif" fill="#FFF">Fish (14 lines, 0.1%)</text>
+<text x="527" y="200" font-size="15" font-family="sans-serif" fill="#FFF">Fish (20 lines, 0.1%)</text>
 <circle cx="16" cy="216" r="6" fill="#000080" />
-<text x="27" y="220" font-size="15" font-family="sans-serif" fill="#FFF">Lua (3 lines, 0.0%)</text>
+<text x="27" y="220" font-size="15" font-family="sans-serif" fill="#FFF">Lua (8 lines, 0.1%)</text>
 <circle cx="266" cy="216" r="6" fill="#3178c6" />
 <text x="277" y="220" font-size="15" font-family="sans-serif" fill="#FFF">TypeScript (3 lines, 0.0%)</text>
 <circle cx="516" cy="216" r="6" fill="#74283c" />
