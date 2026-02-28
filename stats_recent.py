@@ -10,6 +10,10 @@ GIT_USERNAME = os.environ.get("GIT_USERNAME", "")
 REPOS_DIR = Path("temp")
 OUTPUT_DIR = Path("recent")
 OUTPUT_DIR.mkdir(exist_ok=True)
+COPILOT_OUTPUT_DIR = Path("recent_copilot")
+COPILOT_OUTPUT_DIR.mkdir(exist_ok=True)
+
+COPILOT_TRAILER = "Co-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>"
 
 # Optional: languages mapping for file extension -> language
 with open("languages.json") as f:
@@ -64,6 +68,13 @@ def git_commits(repo_path: Path):
     return result + handle.stdout.strip().splitlines()
 
 
+def is_copilot_commit(repo_path: Path, sha: str) -> bool:
+    """Return True if commit message contains Copilot co-author trailer."""
+    cmd = ["git", "-C", str(repo_path), "show", "-s", "--format=%B", sha]
+    result = subprocess.run(cmd, capture_output=True, text=True)
+    return COPILOT_TRAILER in result.stdout
+
+
 def git_commit_stats(repo_path: Path, sha: str):
     """Return list of (additions, deletions, filename) for a commit"""
     cmd = ["git", "-C", str(repo_path), "show", "--numstat", "--format=", sha]
@@ -98,29 +109,47 @@ for repo_path in REPOS_DIR.iterdir():
     if not commits:
         continue
 
-    # Aggregate LOC per language
-    lang_totals = {}
-    for sha in commits:
-        for added, deleted, filename in git_commit_stats(repo_path, sha):
-            lang = get_language(filename)
-            if lang:
-                lang_totals[lang] = lang_totals.get(lang, 0) + added + deleted
+    # Partition commits: copilot-assisted vs regular
+    copilot_commits = [sha for sha in commits if is_copilot_commit(repo_path, sha)]
+    regular_commits = [sha for sha in commits if sha not in set(copilot_commits)]
 
-    # Skip repos with no LOC changes
-    if not lang_totals:
-        continue
+    def aggregate_loc(shas):
+        totals = {}
+        for sha in shas:
+            for added, deleted, filename in git_commit_stats(repo_path, sha):
+                lang = get_language(filename)
+                if lang:
+                    totals[lang] = totals.get(lang, 0) + added + deleted
+        return totals
 
-    # Write per-repo JSON
-    output_file = OUTPUT_DIR / f"{USERNAME}_{repo_name}.json"
-    with open(output_file, "w") as f:
-        json.dump(
-            {
-                "repo": repo_name,
-                "since": since_str,
-                "loc_changed_per_language": lang_totals,
-            },
-            f,
-            indent=2,
-        )
+    # Write regular (non-copilot) JSON
+    lang_totals = aggregate_loc(regular_commits)
+    if lang_totals:
+        output_file = OUTPUT_DIR / f"{USERNAME}_{repo_name}.json"
+        with open(output_file, "w") as f:
+            json.dump(
+                {
+                    "repo": repo_name,
+                    "since": since_str,
+                    "loc_changed_per_language": lang_totals,
+                },
+                f,
+                indent=2,
+            )
 
-print("Done. Data written to recent/*.json")
+    # Write copilot-assisted JSON
+    copilot_totals = aggregate_loc(copilot_commits)
+    if copilot_totals:
+        output_file = COPILOT_OUTPUT_DIR / f"{USERNAME}_{repo_name}.json"
+        with open(output_file, "w") as f:
+            json.dump(
+                {
+                    "repo": repo_name,
+                    "since": since_str,
+                    "loc_changed_per_language": copilot_totals,
+                },
+                f,
+                indent=2,
+            )
+
+print("Done. Data written to recent/*.json and recent_copilot/*.json")
