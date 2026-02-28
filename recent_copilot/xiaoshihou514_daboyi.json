@@ -1,0 +1,11 @@
+{
+  "repo": "daboyi",
+  "since": "2026-01-29T16:47:42Z",
+  "loc_changed_per_language": {
+    "Rust": 8840,
+    "YAML": 318,
+    "TOML": 129,
+    "Markdown": 294,
+    "Python": 475
+  }
+}

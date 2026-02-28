@@ -1,0 +1,12 @@
+<svg width="800" height="150" xmlns="http://www.w3.org/2000/svg">
+<rect width="800" height="150" fill="#212830"/>
+<rect x="10" y="40" width="735.976688521178" height="50" fill="#dea584"/>
+<rect x="745.976688521178" y="40" width="39.54625871578728" height="50" fill="#3572A5"/>
+<rect x="785.5229472369653" y="40" width="24.477052763034653" height="50" fill="#083fa1"/>
+<circle cx="16" cy="116" r="6" fill="#dea584" />
+<text x="27" y="120" font-size="15" font-family="sans-serif" fill="#FFF">Rust (8.8k lines, 92.0%)</text>
+<circle cx="266" cy="116" r="6" fill="#3572A5" />
+<text x="277" y="120" font-size="15" font-family="sans-serif" fill="#FFF">Python (475 lines, 4.9%)</text>
+<circle cx="516" cy="116" r="6" fill="#083fa1" />
+<text x="527" y="120" font-size="15" font-family="sans-serif" fill="#FFF">Markdown (294 lines, 3.1%)</text>
+</svg>
