@@ -1,33 +1,45 @@
-<svg width="800" height="210" xmlns="http://www.w3.org/2000/svg">
-<rect width="800" height="210" fill="#212830"/>
-<rect x="10" y="40" width="390.7824502017967" height="50" fill="None"/>
-<rect x="400.7824502017967" y="40" width="271.11053248274965" height="50" fill="#00B4AB"/>
-<rect x="671.8929826845463" y="40" width="51.13917458664237" height="50" fill="#083fa1"/>
-<rect x="723.0321572711887" y="40" width="35.20374951178232" height="50" fill="#3572A5"/>
-<rect x="758.235906782971" y="40" width="33.74560604088009" height="50" fill="#A97BFF"/>
-<rect x="791.9815128238511" y="40" width="10.831922926702253" height="50" fill="#41b883"/>
-<rect x="802.8134357505534" y="40" width="3.4370524671266764" height="50" fill="#3178c6"/>
-<rect x="806.2504882176801" y="40" width="2.0830621012888946" height="50" fill="#000000"/>
-<rect x="808.333550318969" y="40" width="1.2498372607733368" height="50" fill="#000080"/>
-<rect x="809.5833875797423" y="40" width="0.4166124202577789" height="50" fill="#dea584"/>
-<circle cx="16" cy="116" r="6" fill="None" />
-<text x="27" y="120" font-size="15" font-family="sans-serif" fill="#FFF">Lean (3.8k lines, 48.8%)</text>
-<circle cx="266" cy="116" r="6" fill="#00B4AB" />
-<text x="277" y="120" font-size="15" font-family="sans-serif" fill="#FFF">Dart (2.6k lines, 33.9%)</text>
-<circle cx="516" cy="116" r="6" fill="#083fa1" />
-<text x="527" y="120" font-size="15" font-family="sans-serif" fill="#FFF">Markdown (491 lines, 6.4%)</text>
-<circle cx="16" cy="136" r="6" fill="#3572A5" />
-<text x="27" y="140" font-size="15" font-family="sans-serif" fill="#FFF">Python (338 lines, 4.4%)</text>
-<circle cx="266" cy="136" r="6" fill="#A97BFF" />
-<text x="277" y="140" font-size="15" font-family="sans-serif" fill="#FFF">Kotlin (324 lines, 4.2%)</text>
-<circle cx="516" cy="136" r="6" fill="#41b883" />
-<text x="527" y="140" font-size="15" font-family="sans-serif" fill="#FFF">Vue (104 lines, 1.4%)</text>
-<circle cx="16" cy="156" r="6" fill="#3178c6" />
-<text x="27" y="160" font-size="15" font-family="sans-serif" fill="#FFF">TypeScript (33 lines, 0.4%)</text>
-<circle cx="266" cy="156" r="6" fill="#000000" />
-<text x="277" y="160" font-size="15" font-family="sans-serif" fill="#FFF">Fish (20 lines, 0.3%)</text>
-<circle cx="516" cy="156" r="6" fill="#000080" />
-<text x="527" y="160" font-size="15" font-family="sans-serif" fill="#FFF">Lua (12 lines, 0.2%)</text>
-<circle cx="16" cy="176" r="6" fill="#dea584" />
-<text x="27" y="180" font-size="15" font-family="sans-serif" fill="#FFF">Rust (4 lines, 0.1%)</text>
+<svg width="800" height="230" xmlns="http://www.w3.org/2000/svg">
+<rect width="800" height="230" fill="#212830"/>
+<rect x="10" y="40" width="341.35449672776804" height="50" fill="#000000"/>
+<rect x="351.35449672776804" y="40" width="326.690159613847" height="50" fill="None"/>
+<rect x="678.0446563416151" y="40" width="86.20924516568452" height="50" fill="#00B4AB"/>
+<rect x="764.2539015072996" y="40" width="16.038378394385383" height="50" fill="#083fa1"/>
+<rect x="780.292279901685" y="40" width="12.342681157274423" height="50" fill="#3572A5"/>
+<rect x="792.6349610589594" y="40" width="7.93627291302674" height="50" fill="#A97BFF"/>
+<rect x="800.5712339719862" y="40" width="3.9089105392519765" height="50" fill="#3D6117"/>
+<rect x="804.4801445112382" y="40" width="2.463798158073973" height="50" fill="#41b883"/>
+<rect x="806.9439426693122" y="40" width="0.92392430927774" height="50" fill="#74283c"/>
+<rect x="807.8678669785899" y="40" width="0.8291628416595103" height="50" fill="#000000"/>
+<rect x="808.6970298202493" y="40" width="0.7817821078503954" height="50" fill="#3178c6"/>
+<rect x="809.4788119280997" y="40" width="0.2842844028546892" height="50" fill="#000080"/>
+<rect x="809.7630963309545" y="40" width="0.1421422014273446" height="50" fill="#000000"/>
+<rect x="809.9052385323818" y="40" width="0.09476146761822973" height="50" fill="#dea584"/>
+<circle cx="16" cy="116" r="6" fill="#000000" />
+<text x="27" y="120" font-size="15" font-family="sans-serif" fill="#FFF">Jupyter Not… (14.4k lines, 42.7%)</text>
+<circle cx="266" cy="116" r="6" fill="None" />
+<text x="277" y="120" font-size="15" font-family="sans-serif" fill="#FFF">Lean (13.8k lines, 40.8%)</text>
+<circle cx="516" cy="116" r="6" fill="#00B4AB" />
+<text x="527" y="120" font-size="15" font-family="sans-serif" fill="#FFF">Dart (3.6k lines, 10.8%)</text>
+<circle cx="16" cy="136" r="6" fill="#083fa1" />
+<text x="27" y="140" font-size="15" font-family="sans-serif" fill="#FFF">Markdown (677 lines, 2.0%)</text>
+<circle cx="266" cy="136" r="6" fill="#3572A5" />
+<text x="277" y="140" font-size="15" font-family="sans-serif" fill="#FFF">Python (521 lines, 1.5%)</text>
+<circle cx="516" cy="136" r="6" fill="#A97BFF" />
+<text x="527" y="140" font-size="15" font-family="sans-serif" fill="#FFF">Kotlin (335 lines, 1.0%)</text>
+<circle cx="16" cy="156" r="6" fill="#3D6117" />
+<text x="27" y="160" font-size="15" font-family="sans-serif" fill="#FFF">TeX (165 lines, 0.5%)</text>
+<circle cx="266" cy="156" r="6" fill="#41b883" />
+<text x="277" y="160" font-size="15" font-family="sans-serif" fill="#FFF">Vue (104 lines, 0.3%)</text>
+<circle cx="516" cy="156" r="6" fill="#74283c" />
+<text x="527" y="160" font-size="15" font-family="sans-serif" fill="#FFF">Prolog (39 lines, 0.1%)</text>
+<circle cx="16" cy="176" r="6" fill="#000000" />
+<text x="27" y="180" font-size="15" font-family="sans-serif" fill="#FFF">Batch (35 lines, 0.1%)</text>
+<circle cx="266" cy="176" r="6" fill="#3178c6" />
+<text x="277" y="180" font-size="15" font-family="sans-serif" fill="#FFF">TypeScript (33 lines, 0.1%)</text>
+<circle cx="516" cy="176" r="6" fill="#000080" />
+<text x="527" y="180" font-size="15" font-family="sans-serif" fill="#FFF">Lua (12 lines, 0.0%)</text>
+<circle cx="16" cy="196" r="6" fill="#000000" />
+<text x="27" y="200" font-size="15" font-family="sans-serif" fill="#FFF">Fish (6 lines, 0.0%)</text>
+<circle cx="266" cy="196" r="6" fill="#dea584" />
+<text x="277" y="200" font-size="15" font-family="sans-serif" fill="#FFF">Rust (4 lines, 0.0%)</text>
 </svg>

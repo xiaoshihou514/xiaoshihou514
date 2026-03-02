@@ -1,10 +1,10 @@
 {
   "repo": "daboyi",
-  "since": "2026-01-30T00:08:58Z",
+  "since": "2026-01-31T00:10:46Z",
   "loc_changed_per_language": {
-    "Rust": 11505,
+    "Rust": 12829,
+    "YAML": 344,
     "Markdown": 608,
-    "YAML": 340,
     "Python": 1278,
     "TOML": 129
   }
