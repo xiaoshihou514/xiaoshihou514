@@ -1,21 +1,21 @@
 <svg width="800" height="170" xmlns="http://www.w3.org/2000/svg">
 <rect width="800" height="170" fill="#212830"/>
-<rect x="10" y="40" width="496.9843184559711" height="50" fill="#dea584"/>
-<rect x="506.9843184559711" y="40" width="124.25339035712982" height="50" fill="#ec915c"/>
-<rect x="631.2377088131009" y="40" width="86.70541360529297" height="50" fill="#00B4AB"/>
-<rect x="717.9431224183938" y="40" width="41.87593668896443" height="50" fill="#3572A5"/>
-<rect x="759.8190591073583" y="40" width="38.805424571407684" height="50" fill="#083fa1"/>
-<rect x="798.624483678766" y="40" width="11.375516321234054" height="50" fill="#A97BFF"/>
+<rect x="10" y="40" width="475.0620095149026" height="50" fill="#dea584"/>
+<rect x="485.0620095149026" y="40" width="138.21819216850324" height="50" fill="#ec915c"/>
+<rect x="623.2802016834058" y="40" width="96.45020940918147" height="50" fill="#00B4AB"/>
+<rect x="719.7304110925872" y="40" width="39.94632619037938" height="50" fill="#083fa1"/>
+<rect x="759.6767372829667" y="40" width="37.6692554792014" height="50" fill="#3572A5"/>
+<rect x="797.3459927621681" y="40" width="12.654007237831907" height="50" fill="#A97BFF"/>
 <circle cx="16" cy="116" r="6" fill="#dea584" />
-<text x="27" y="120" font-size="15" font-family="sans-serif" fill="#FFF">Rust (17.0k lines, 62.1%)</text>
+<text x="27" y="120" font-size="15" font-family="sans-serif" fill="#FFF">Rust (14.6k lines, 59.4%)</text>
 <circle cx="266" cy="116" r="6" fill="#ec915c" />
-<text x="277" y="120" font-size="15" font-family="sans-serif" fill="#FFF">Zig (4.2k lines, 15.5%)</text>
+<text x="277" y="120" font-size="15" font-family="sans-serif" fill="#FFF">Zig (4.2k lines, 17.3%)</text>
 <circle cx="516" cy="116" r="6" fill="#00B4AB" />
-<text x="527" y="120" font-size="15" font-family="sans-serif" fill="#FFF">Dart (3.0k lines, 10.8%)</text>
-<circle cx="16" cy="136" r="6" fill="#3572A5" />
-<text x="27" y="140" font-size="15" font-family="sans-serif" fill="#FFF">Python (1.4k lines, 5.2%)</text>
-<circle cx="266" cy="136" r="6" fill="#083fa1" />
-<text x="277" y="140" font-size="15" font-family="sans-serif" fill="#FFF">Markdown (1.3k lines, 4.9%)</text>
+<text x="527" y="120" font-size="15" font-family="sans-serif" fill="#FFF">Dart (3.0k lines, 12.1%)</text>
+<circle cx="16" cy="136" r="6" fill="#083fa1" />
+<text x="27" y="140" font-size="15" font-family="sans-serif" fill="#FFF">Markdown (1.2k lines, 5.0%)</text>
+<circle cx="266" cy="136" r="6" fill="#3572A5" />
+<text x="277" y="140" font-size="15" font-family="sans-serif" fill="#FFF">Python (1.2k lines, 4.7%)</text>
 <circle cx="516" cy="136" r="6" fill="#A97BFF" />
-<text x="527" y="140" font-size="15" font-family="sans-serif" fill="#FFF">Kotlin (389 lines, 1.4%)</text>
+<text x="527" y="140" font-size="15" font-family="sans-serif" fill="#FFF">Kotlin (389 lines, 1.6%)</text>
 </svg>
