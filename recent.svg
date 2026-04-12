@@ -1,33 +1,33 @@
 <svg width="800" height="210" xmlns="http://www.w3.org/2000/svg">
 <rect width="800" height="210" fill="#212830"/>
-<rect x="10" y="40" width="428.91170431211503" height="50" fill="#c22d40"/>
-<rect x="438.91170431211503" y="40" width="129.93839835728954" height="50" fill="#00B4AB"/>
-<rect x="568.8501026694046" y="40" width="122.95687885010267" height="50" fill="#083fa1"/>
-<rect x="691.8069815195072" y="40" width="45.831622176591374" height="50" fill="#663399"/>
-<rect x="737.6386036960986" y="40" width="37.125256673511295" height="50" fill="#f34b7d"/>
-<rect x="774.7638603696099" y="40" width="23.24435318275154" height="50" fill="#89e051"/>
-<rect x="798.0082135523614" y="40" width="6.48870636550308" height="50" fill="#000000"/>
-<rect x="804.4969199178645" y="40" width="5.420944558521561" height="50" fill="#f1e05a"/>
-<rect x="809.9178644763861" y="40" width="0.08213552361396304" height="50" fill="#3178c6"/>
-<rect x="810.0" y="40" width="0.0" height="50" fill="#3D6117"/>
-<rect x="810.0" y="40" width="0.0" height="50" fill="None"/>
-<rect x="810.0" y="40" width="0.0" height="50" fill="#239dad"/>
+<rect x="10" y="40" width="540.2301823354455" height="50" fill="#c22d40"/>
+<rect x="550.2301823354455" y="40" width="85.03814819604293" height="50" fill="#00B4AB"/>
+<rect x="635.2683305314885" y="40" width="57.726626147678786" height="50" fill="#663399"/>
+<rect x="692.9949566791672" y="40" width="46.760636234320444" height="50" fill="#f34b7d"/>
+<rect x="739.7555929134877" y="40" width="29.277124013966123" height="50" fill="#89e051"/>
+<rect x="769.0327169274539" y="40" width="25.863183757920595" height="50" fill="#083fa1"/>
+<rect x="794.8959006853745" y="40" width="8.17276606750291" height="50" fill="#000000"/>
+<rect x="803.0686667528774" y="40" width="6.827880512091039" height="50" fill="#f1e05a"/>
+<rect x="809.8965472649685" y="40" width="0.10345273503168242" height="50" fill="#3178c6"/>
+<rect x="810.0000000000002" y="40" width="0.0" height="50" fill="#3D6117"/>
+<rect x="810.0000000000002" y="40" width="0.0" height="50" fill="None"/>
+<rect x="810.0000000000002" y="40" width="0.0" height="50" fill="#239dad"/>
 <circle cx="16" cy="116" r="6" fill="#c22d40" />
-<text x="27" y="120" font-size="15" font-family="sans-serif" fill="#FFF">Scala (5.2k lines, 53.6%)</text>
+<text x="27" y="120" font-size="15" font-family="sans-serif" fill="#FFF">Scala (5.2k lines, 67.5%)</text>
 <circle cx="266" cy="116" r="6" fill="#00B4AB" />
-<text x="277" y="120" font-size="15" font-family="sans-serif" fill="#FFF">Dart (1.6k lines, 16.2%)</text>
-<circle cx="516" cy="116" r="6" fill="#083fa1" />
-<text x="527" y="120" font-size="15" font-family="sans-serif" fill="#FFF">Markdown (1.5k lines, 15.4%)</text>
-<circle cx="16" cy="136" r="6" fill="#663399" />
-<text x="27" y="140" font-size="15" font-family="sans-serif" fill="#FFF">CSS (558 lines, 5.7%)</text>
-<circle cx="266" cy="136" r="6" fill="#f34b7d" />
-<text x="277" y="140" font-size="15" font-family="sans-serif" fill="#FFF">C++ (452 lines, 4.6%)</text>
-<circle cx="516" cy="136" r="6" fill="#89e051" />
-<text x="527" y="140" font-size="15" font-family="sans-serif" fill="#FFF">Shell (283 lines, 2.9%)</text>
+<text x="277" y="120" font-size="15" font-family="sans-serif" fill="#FFF">Dart (822 lines, 10.6%)</text>
+<circle cx="516" cy="116" r="6" fill="#663399" />
+<text x="527" y="120" font-size="15" font-family="sans-serif" fill="#FFF">CSS (558 lines, 7.2%)</text>
+<circle cx="16" cy="136" r="6" fill="#f34b7d" />
+<text x="27" y="140" font-size="15" font-family="sans-serif" fill="#FFF">C++ (452 lines, 5.8%)</text>
+<circle cx="266" cy="136" r="6" fill="#89e051" />
+<text x="277" y="140" font-size="15" font-family="sans-serif" fill="#FFF">Shell (283 lines, 3.7%)</text>
+<circle cx="516" cy="136" r="6" fill="#083fa1" />
+<text x="527" y="140" font-size="15" font-family="sans-serif" fill="#FFF">Markdown (250 lines, 3.2%)</text>
 <circle cx="16" cy="156" r="6" fill="#000000" />
-<text x="27" y="160" font-size="15" font-family="sans-serif" fill="#FFF">C++ Header (79 lines, 0.8%)</text>
+<text x="27" y="160" font-size="15" font-family="sans-serif" fill="#FFF">C++ Header (79 lines, 1.0%)</text>
 <circle cx="266" cy="156" r="6" fill="#f1e05a" />
-<text x="277" y="160" font-size="15" font-family="sans-serif" fill="#FFF">JavaScript (66 lines, 0.7%)</text>
+<text x="277" y="160" font-size="15" font-family="sans-serif" fill="#FFF">JavaScript (66 lines, 0.9%)</text>
 <circle cx="516" cy="156" r="6" fill="#3178c6" />
 <text x="527" y="160" font-size="15" font-family="sans-serif" fill="#FFF">TypeScript (1 lines, 0.0%)</text>
 <circle cx="16" cy="176" r="6" fill="#3D6117" />
