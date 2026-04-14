@@ -1,16 +1,16 @@
 <svg width="800" height="210" xmlns="http://www.w3.org/2000/svg">
 <rect width="800" height="210" fill="#212830"/>
-<rect x="10" y="40" width="604.4856026624223" height="50" fill="#c22d40"/>
-<rect x="614.4856026624223" y="40" width="64.59267833888005" height="50" fill="#663399"/>
-<rect x="679.0782810013023" y="40" width="52.3223846042541" height="50" fill="#f34b7d"/>
-<rect x="731.4006656055565" y="40" width="32.75936912169006" height="50" fill="#89e051"/>
-<rect x="764.1600347272465" y="40" width="28.939372015627264" height="50" fill="#083fa1"/>
-<rect x="793.0994067428737" y="40" width="9.144841556938214" height="50" fill="#000000"/>
-<rect x="802.2442482998119" y="40" width="7.639994212125596" height="50" fill="#f1e05a"/>
-<rect x="809.8842425119375" y="40" width="0.11575748806250905" height="50" fill="#3178c6"/>
-<rect x="810.0" y="40" width="0.0" height="50" fill="#3D6117"/>
-<rect x="810.0" y="40" width="0.0" height="50" fill="None"/>
-<rect x="810.0" y="40" width="0.0" height="50" fill="#239dad"/>
+<rect x="10" y="40" width="604.9232551404576" height="50" fill="#c22d40"/>
+<rect x="614.9232551404576" y="40" width="64.63944396177237" height="50" fill="#663399"/>
+<rect x="679.56269910223" y="40" width="52.36026643498407" height="50" fill="#f34b7d"/>
+<rect x="731.922965537214" y="40" width="32.78308717057631" height="50" fill="#89e051"/>
+<rect x="764.7060527077904" y="40" width="28.38111786852013" height="50" fill="#083fa1"/>
+<rect x="793.0871705763105" y="40" width="9.15146249637996" height="50" fill="#000000"/>
+<rect x="802.2386330726905" y="40" width="7.6455256298870555" height="50" fill="#f1e05a"/>
+<rect x="809.8841587025776" y="40" width="0.11584129742253113" height="50" fill="#3178c6"/>
+<rect x="810.0000000000001" y="40" width="0.0" height="50" fill="#3D6117"/>
+<rect x="810.0000000000001" y="40" width="0.0" height="50" fill="None"/>
+<rect x="810.0000000000001" y="40" width="0.0" height="50" fill="#239dad"/>
 <circle cx="16" cy="116" r="6" fill="#c22d40" />
 <text x="27" y="120" font-size="15" font-family="sans-serif" fill="#FFF">Scala (5.2k lines, 75.6%)</text>
 <circle cx="266" cy="116" r="6" fill="#663399" />
@@ -20,7 +20,7 @@
 <circle cx="16" cy="136" r="6" fill="#89e051" />
 <text x="27" y="140" font-size="15" font-family="sans-serif" fill="#FFF">Shell (283 lines, 4.1%)</text>
 <circle cx="266" cy="136" r="6" fill="#083fa1" />
-<text x="277" y="140" font-size="15" font-family="sans-serif" fill="#FFF">Markdown (250 lines, 3.6%)</text>
+<text x="277" y="140" font-size="15" font-family="sans-serif" fill="#FFF">Markdown (245 lines, 3.5%)</text>
 <circle cx="516" cy="136" r="6" fill="#000000" />
 <text x="527" y="140" font-size="15" font-family="sans-serif" fill="#FFF">C++ Header (79 lines, 1.1%)</text>
 <circle cx="16" cy="156" r="6" fill="#f1e05a" />
