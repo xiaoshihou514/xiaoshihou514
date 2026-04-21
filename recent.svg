@@ -1,22 +1,22 @@
 <svg width="800" height="190" xmlns="http://www.w3.org/2000/svg">
 <rect width="800" height="190" fill="#212830"/>
-<rect x="10" y="40" width="664.905300015916" height="50" fill="#c22d40"/>
-<rect x="674.905300015916" y="40" width="71.04886200859461" height="50" fill="#663399"/>
-<rect x="745.9541620245107" y="40" width="36.0337418430686" height="50" fill="#89e051"/>
-<rect x="781.9879038675792" y="40" width="19.48113958300175" height="50" fill="#083fa1"/>
-<rect x="801.469043450581" y="40" width="8.403628839726245" height="50" fill="#f1e05a"/>
-<rect x="809.8726722903073" y="40" width="0.12732770969282192" height="50" fill="#3178c6"/>
-<rect x="810.0000000000001" y="40" width="0.0" height="50" fill="#3D6117"/>
-<rect x="810.0000000000001" y="40" width="0.0" height="50" fill="None"/>
-<rect x="810.0000000000001" y="40" width="0.0" height="50" fill="#239dad"/>
+<rect x="10" y="40" width="669.8092031425364" height="50" fill="#c22d40"/>
+<rect x="679.8092031425364" y="40" width="71.57287157287158" height="50" fill="#663399"/>
+<rect x="751.382074715408" y="40" width="36.299502966169634" height="50" fill="#89e051"/>
+<rect x="787.6815776815776" y="40" width="13.724547057880391" height="50" fill="#083fa1"/>
+<rect x="801.4061247394579" y="40" width="8.465608465608465" height="50" fill="#f1e05a"/>
+<rect x="809.8717332050664" y="40" width="0.1282667949334616" height="50" fill="#3178c6"/>
+<rect x="809.9999999999999" y="40" width="0.0" height="50" fill="#3D6117"/>
+<rect x="809.9999999999999" y="40" width="0.0" height="50" fill="None"/>
+<rect x="809.9999999999999" y="40" width="0.0" height="50" fill="#239dad"/>
 <circle cx="16" cy="116" r="6" fill="#c22d40" />
-<text x="27" y="120" font-size="15" font-family="sans-serif" fill="#FFF">Scala (5.2k lines, 83.1%)</text>
+<text x="27" y="120" font-size="15" font-family="sans-serif" fill="#FFF">Scala (5.2k lines, 83.7%)</text>
 <circle cx="266" cy="116" r="6" fill="#663399" />
 <text x="277" y="120" font-size="15" font-family="sans-serif" fill="#FFF">CSS (558 lines, 8.9%)</text>
 <circle cx="516" cy="116" r="6" fill="#89e051" />
 <text x="527" y="120" font-size="15" font-family="sans-serif" fill="#FFF">Shell (283 lines, 4.5%)</text>
 <circle cx="16" cy="136" r="6" fill="#083fa1" />
-<text x="27" y="140" font-size="15" font-family="sans-serif" fill="#FFF">Markdown (153 lines, 2.4%)</text>
+<text x="27" y="140" font-size="15" font-family="sans-serif" fill="#FFF">Markdown (107 lines, 1.7%)</text>
 <circle cx="266" cy="136" r="6" fill="#f1e05a" />
 <text x="277" y="140" font-size="15" font-family="sans-serif" fill="#FFF">JavaScript (66 lines, 1.1%)</text>
 <circle cx="516" cy="136" r="6" fill="#3178c6" />
