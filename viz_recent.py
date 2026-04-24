@@ -27,19 +27,25 @@ for path in glob.glob("recent/*.json"):
 if not lang_totals:
     raise SystemExit("No recent data found")
 
-# Convert to list of dicts
-total_lines = sum(lang_totals.values())
+# Convert to list of dicts and filter out languages with 0 lines
 lang_stats = []
-
 for lang, lines in lang_totals.items():
-    lang_stats.append(
-        {
-            "name": lang,
-            "lines": lines,
-            "percent": lines / total_lines * 100,
-            "color": colors.get(lang, {}).get("color", "#000000"),
-        }
-    )
+    if lines > 0:  # Filter out languages with 0 lines
+        lang_stats.append(
+            {
+                "name": lang,
+                "lines": lines,
+                "color": colors.get(lang, {}).get("color", "#000000"),
+            }
+        )
+
+if not lang_stats:
+    raise SystemExit("No language data found with lines > 0")
+
+# Calculate total lines and percentages
+total_lines = sum(lang["lines"] for lang in lang_stats)
+for lang in lang_stats:
+    lang["percent"] = lang["lines"] / total_lines * 100
 
 # Sort descending by lines
 lang_stats.sort(key=lambda x: x["lines"], reverse=True)
