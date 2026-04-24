@@ -10,6 +10,6 @@
 
 ![](./recent.svg)
 
-### Recent commits (Copilot)
+### Recent commits (Agents)
 
-![](./copilot.svg)
+![](./agents.svg)

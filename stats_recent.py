@@ -3,17 +3,7 @@ import subprocess
 import json
 import datetime
 from pathlib import Path
-
-# -------------- Config --------------
-USERNAME = os.environ.get("USERNAME", "")
-GIT_USERNAME = os.environ.get("GIT_USERNAME", "")
-REPOS_DIR = Path("temp")
-OUTPUT_DIR = Path("recent")
-OUTPUT_DIR.mkdir(exist_ok=True)
-COPILOT_OUTPUT_DIR = Path("recent_copilot")
-COPILOT_OUTPUT_DIR.mkdir(exist_ok=True)
-
-COPILOT_TRAILER = "Co-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>"
+from config import USERNAME, GIT_USERNAME, REPOS_DIR, OUTPUT_DIR, AGENTS
 
 # Optional: languages mapping for file extension -> language
 with open("languages.json") as f:
@@ -68,11 +58,16 @@ def git_commits(repo_path: Path):
     return result + handle.stdout.strip().splitlines()
 
 
-def is_copilot_commit(repo_path: Path, sha: str) -> bool:
-    """Return True if commit message contains Copilot co-author trailer."""
+def get_agent_commit(repo_path: Path, sha: str) -> str:
+    """Return the agent name if commit message contains co-author trailer, otherwise empty string."""
     cmd = ["git", "-C", str(repo_path), "show", "-s", "--format=%B", sha]
     result = subprocess.run(cmd, capture_output=True, text=True)
-    return COPILOT_TRAILER in result.stdout
+    commit_message = result.stdout
+    
+    for agent, trailer in AGENTS.items():
+        if trailer in commit_message:
+            return agent
+    return ""
 
 
 def git_commit_stats(repo_path: Path, sha: str):
@@ -109,9 +104,16 @@ for repo_path in REPOS_DIR.iterdir():
     if not commits:
         continue
 
-    # Partition commits: copilot-assisted vs regular
-    copilot_commits = [sha for sha in commits if is_copilot_commit(repo_path, sha)]
-    regular_commits = [sha for sha in commits if sha not in set(copilot_commits)]
+    # Partition commits by agent
+    agent_commits = {agent: [] for agent in AGENTS}
+    regular_commits = []
+    
+    for sha in commits:
+        agent = get_agent_commit(repo_path, sha)
+        if agent:
+            agent_commits[agent].append(sha)
+        else:
+            regular_commits.append(sha)
 
     def aggregate_loc(shas):
         totals = {}
@@ -122,7 +124,7 @@ for repo_path in REPOS_DIR.iterdir():
                     totals[lang] = totals.get(lang, 0) + added + deleted
         return totals
 
-    # Write regular (non-copilot) JSON
+    # Write regular (non-agent) JSON
     lang_totals = aggregate_loc(regular_commits)
     if lang_totals:
         output_file = OUTPUT_DIR / f"{USERNAME}_{repo_name}.json"
@@ -137,19 +139,22 @@ for repo_path in REPOS_DIR.iterdir():
                 indent=2,
             )
 
-    # Write copilot-assisted JSON
-    copilot_totals = aggregate_loc(copilot_commits)
-    if copilot_totals:
-        output_file = COPILOT_OUTPUT_DIR / f"{USERNAME}_{repo_name}.json"
-        with open(output_file, "w") as f:
-            json.dump(
-                {
-                    "repo": repo_name,
-                    "since": since_str,
-                    "loc_changed_per_language": copilot_totals,
-                },
-                f,
-                indent=2,
-            )
+    # Write agent-assisted JSON for each agent
+    for agent, agent_shas in agent_commits.items():
+        agent_totals = aggregate_loc(agent_shas)
+        if agent_totals:
+            agent_output_dir = Path(f"recent_{agent}")
+            output_file = agent_output_dir / f"{USERNAME}_{repo_name}.json"
+            with open(output_file, "w") as f:
+                json.dump(
+                    {
+                        "repo": repo_name,
+                        "since": since_str,
+                        "loc_changed_per_language": agent_totals,
+                    },
+                    f,
+                    indent=2,
+                )
 
-print("Done. Data written to recent/*.json and recent_copilot/*.json")
+agent_dirs = ", ".join([f"recent_{agent}/*.json" for agent in AGENTS])
+print(f"Done. Data written to recent/*.json and {agent_dirs}")

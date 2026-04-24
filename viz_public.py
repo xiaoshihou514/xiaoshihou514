@@ -1,4 +1,5 @@
 import json
+from config import SKIP_LANGS
 
 
 def fmt_lines(n):
@@ -13,25 +14,14 @@ with open("colors.json") as f:
     colors = json.load(f)
 
 # Set languages to skip
-skip_langs = {
+skip_langs = SKIP_LANGS.union({
     "Total",
-    "JSON",
-    "HTML",
-    "SVG",
-    "YAML",
-    "TOML",
     "JavaScript",
     "CSS",
     "Perl",
-    "Plain Text",
-    "XML",
-    "MDX",
-    "INI",
     "Markdown",
     "TypeScript",
-    "TSX",
-    "ReStructuredText",
-}
+})
 
 # Minimum LOC to display
 min_lines = 100

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import json
 import glob
-from config import SKIP_LANGS
+from config import AGENTS, SKIP_LANGS
 
 # ---------- helpers ----------
 
@@ -21,27 +21,29 @@ def trunc(s, n=12):
 with open("colors.json") as f:
     colors = json.load(f)
 
-# ---------- load recent data ----------
+# ---------- load all agents data ----------
 
-skip_langs = SKIP_LANGS
+# Define agents to include
+AGENTS_LIST = list(AGENTS.keys())
 
 lang_totals = {}
 
-for path in glob.glob("recent/*.json"):
-    with open(path) as f:
-        data = json.load(f)
-        per_lang = data.get("loc_changed_per_language", {})
-        for lang, loc in per_lang.items():
-            if lang in skip_langs:
-                continue
-            lang_totals[lang] = lang_totals.get(lang, 0) + loc
+for agent in AGENTS_LIST:
+    for path in glob.glob(f"recent_{agent}/*.json"):
+        with open(path) as f:
+            data = json.load(f)
+            per_lang = data.get("loc_changed_per_language", {})
+            for lang, loc in per_lang.items():
+                if lang in SKIP_LANGS:
+                    continue
+                lang_totals[lang] = lang_totals.get(lang, 0) + loc
 
 if not lang_totals:
-    raise SystemExit("No recent data found")
+    raise SystemExit("No agent data found")
 
 # Convert to list of dicts
-lang_stats = []
 total_lines = sum(lang_totals.values())
+lang_stats = []
 
 for lang, lines in lang_totals.items():
     lang_stats.append(
@@ -108,8 +110,8 @@ for lang in lang_stats:
 svg_lines.append("</svg>")
 
 # Write SVG
-with open("recent.svg", "w") as f:
+with open("agents.svg", "w") as f:
     f.write("\n".join(svg_lines))
 
-print(f"Recent LOC total (excluding skipped languages): {total_lines}")
-print("SVG generated: recent.svg")
+print(f"All agents LOC total (excluding skipped languages): {total_lines}")
+print("SVG generated: agents.svg")
