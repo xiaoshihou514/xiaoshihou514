@@ -1,35 +1,35 @@
 <svg width="800" height="330" xmlns="http://www.w3.org/2000/svg">
 <rect width="800" height="330" fill="#212830"/>
-<rect x="10" y="40" width="118.42868280652048" height="50" fill="#555555"/>
-<rect x="128.4286828065205" y="40" width="97.53621785235651" height="50" fill="#b07219"/>
-<rect x="225.964900658877" y="40" width="87.28769943386516" height="50" fill="#c22d40"/>
-<rect x="313.25260009274217" y="40" width="76.3746987153682" height="50" fill="#00B4AB"/>
-<rect x="389.62729880811037" y="40" width="56.76635599741138" height="50" fill="#A97BFF"/>
-<rect x="446.39365480552175" y="40" width="47.81418955071009" height="50" fill="#dea584"/>
-<rect x="494.2078443562318" y="40" width="46.94995490285004" height="50" fill="None"/>
-<rect x="541.1577992590819" y="40" width="42.102903033484" height="50" fill="#3572A5"/>
-<rect x="583.260702292566" y="40" width="37.61459007455043" height="50" fill="#5e5086"/>
-<rect x="620.8752923671163" y="40" width="37.41076114816834" height="50" fill="#000000"/>
-<rect x="658.2860535152847" y="40" width="33.65215574568265" height="50" fill="#3D6117"/>
-<rect x="691.9382092609674" y="40" width="19.922239264585233" height="50" fill="#89e051"/>
-<rect x="711.8604485255526" y="40" width="17.26023348603517" height="50" fill="#239dad"/>
-<rect x="729.1206820115877" y="40" width="16.628363814250697" height="50" fill="#ec915c"/>
-<rect x="745.7490458258385" y="40" width="13.864443572509593" height="50" fill="#000000"/>
-<rect x="759.6134893983481" y="40" width="9.889779508058886" height="50" fill="#000080"/>
-<rect x="769.5032689064069" y="40" width="8.73203120620863" height="50" fill="#000000"/>
-<rect x="778.2353001126155" y="40" width="7.855566822765652" height="50" fill="#f34b7d"/>
-<rect x="786.0908669353812" y="40" width="6.445070652201607" height="50" fill="#000000"/>
-<rect x="792.5359375875828" y="40" width="3.5751593687418155" height="50" fill="#000000"/>
-<rect x="796.1110969563246" y="40" width="2.926983382846777" height="50" fill="#427819"/>
-<rect x="799.0380803391713" y="40" width="2.7924562914345987" height="50" fill="#DA3434"/>
-<rect x="801.8305366306059" y="40" width="2.185046090815978" height="50" fill="#000000"/>
-<rect x="804.0155827214219" y="40" width="1.7896179736347284" height="50" fill="#000000"/>
-<rect x="805.8052006950566" y="40" width="1.1699780374331825" height="50" fill="#199f4b"/>
-<rect x="806.9751787324898" y="40" width="0.8968472760811851" height="50" fill="#B83998"/>
-<rect x="807.872026008571" y="40" width="0.6644823000056053" height="50" fill="#000000"/>
-<rect x="808.5365083085766" y="40" width="0.635946250312113" height="50" fill="#db5855"/>
-<rect x="809.1724545588887" y="40" width="0.41988758834710027" height="50" fill="#0050b2"/>
-<rect x="809.5923421472359" y="40" width="0.40765785276417504" height="50" fill="#701516"/>
+<rect x="10" y="40" width="118.57430026224223" height="50" fill="#555555"/>
+<rect x="128.57430026224222" y="40" width="97.65614636585342" height="50" fill="#b07219"/>
+<rect x="226.23044662809565" y="40" width="87.39502658136139" height="50" fill="#c22d40"/>
+<rect x="313.625473209457" y="40" width="76.46860746318916" height="50" fill="#00B4AB"/>
+<rect x="390.0940806726462" y="40" width="56.83615473311497" height="50" fill="#A97BFF"/>
+<rect x="446.9302354057612" y="40" width="47.00768359506535" height="50" fill="None"/>
+<rect x="493.9379190008266" y="40" width="46.88931745594433" height="50" fill="#dea584"/>
+<rect x="540.827236456771" y="40" width="42.154671891103156" height="50" fill="#3572A5"/>
+<rect x="582.9819083478741" y="40" width="37.66084019550821" height="50" fill="#5e5086"/>
+<rect x="620.6427485433823" y="40" width="37.45676064529954" height="50" fill="#000000"/>
+<rect x="658.0995091886818" y="40" width="33.69353373945164" height="50" fill="#3D6117"/>
+<rect x="691.7930429281334" y="40" width="19.946735237395536" height="50" fill="#89e051"/>
+<rect x="711.739778165529" y="40" width="17.28145631167029" height="50" fill="#239dad"/>
+<rect x="729.0212344771992" y="40" width="16.648809706023407" height="50" fill="#ec915c"/>
+<rect x="745.6700441832226" y="40" width="13.881491005193825" height="50" fill="#000000"/>
+<rect x="759.5515351884164" y="40" width="9.901939776124733" height="50" fill="#000080"/>
+<rect x="769.4534749645412" y="40" width="8.742767930939479" height="50" fill="#000000"/>
+<rect x="778.1962428954807" y="40" width="7.865225865042194" height="50" fill="#f34b7d"/>
+<rect x="786.061468760523" y="40" width="6.452995377598188" height="50" fill="#000000"/>
+<rect x="792.5144641381212" y="40" width="3.579555310660095" height="50" fill="#000000"/>
+<rect x="796.0940194487813" y="40" width="2.9305823409965206" height="50" fill="#427819"/>
+<rect x="799.0246017897778" y="40" width="2.7958898378587973" height="50" fill="#DA3434"/>
+<rect x="801.8204916276366" y="40" width="2.1877327782369567" height="50" fill="#000000"/>
+<rect x="804.0082244058735" y="40" width="1.7918184508321344" height="50" fill="#000000"/>
+<rect x="805.8000428567057" y="40" width="1.1714166181977734" height="50" fill="#199f4b"/>
+<rect x="806.9714594749034" y="40" width="0.897950020918154" height="50" fill="#B83998"/>
+<rect x="807.8694094958216" y="40" width="0.6652993336802686" height="50" fill="#000000"/>
+<rect x="808.5347088295019" y="40" width="0.6367281966510546" height="50" fill="#db5855"/>
+<rect x="809.171437026153" y="40" width="0.420403873429863" height="50" fill="#0050b2"/>
+<rect x="809.5918408995828" y="40" width="0.4081591004173427" height="50" fill="#701516"/>
 <circle cx="16" cy="116" r="6" fill="#555555" />
 <text x="27" y="120" font-size="15" font-family="sans-serif" fill="#FFF">C (29.1k lines, 14.8%)</text>
 <circle cx="266" cy="116" r="6" fill="#b07219" />
@@ -37,13 +37,13 @@
 <circle cx="516" cy="116" r="6" fill="#c22d40" />
 <text x="527" y="120" font-size="15" font-family="sans-serif" fill="#FFF">Scala (21.4k lines, 10.9%)</text>
 <circle cx="16" cy="136" r="6" fill="#00B4AB" />
-<text x="27" y="140" font-size="15" font-family="sans-serif" fill="#FFF">Dart (18.7k lines, 9.5%)</text>
+<text x="27" y="140" font-size="15" font-family="sans-serif" fill="#FFF">Dart (18.7k lines, 9.6%)</text>
 <circle cx="266" cy="136" r="6" fill="#A97BFF" />
 <text x="277" y="140" font-size="15" font-family="sans-serif" fill="#FFF">Kotlin (13.9k lines, 7.1%)</text>
-<circle cx="516" cy="136" r="6" fill="#dea584" />
-<text x="527" y="140" font-size="15" font-family="sans-serif" fill="#FFF">Rust (11.7k lines, 6.0%)</text>
-<circle cx="16" cy="156" r="6" fill="None" />
-<text x="27" y="160" font-size="15" font-family="sans-serif" fill="#FFF">Lean (11.5k lines, 5.9%)</text>
+<circle cx="516" cy="136" r="6" fill="None" />
+<text x="527" y="140" font-size="15" font-family="sans-serif" fill="#FFF">Lean (11.5k lines, 5.9%)</text>
+<circle cx="16" cy="156" r="6" fill="#dea584" />
+<text x="27" y="160" font-size="15" font-family="sans-serif" fill="#FFF">Rust (11.5k lines, 5.9%)</text>
 <circle cx="266" cy="156" r="6" fill="#3572A5" />
 <text x="277" y="160" font-size="15" font-family="sans-serif" fill="#FFF">Python (10.3k lines, 5.3%)</text>
 <circle cx="516" cy="156" r="6" fill="#5e5086" />
