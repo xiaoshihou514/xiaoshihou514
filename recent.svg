@@ -1,28 +1,27 @@
 <svg width="800" height="190" xmlns="http://www.w3.org/2000/svg">
 <rect width="800" height="190" fill="#212830"/>
-<text x="10" y="30" font-size="18" font-family="sans-serif" fill="#FFF" font-weight="bold">Recent Code Lines by Language</text>
-<rect x="10" y="60" width="572.6662097326936" height="50" fill="#c22d40"/>
-<rect x="582.6662097326936" y="60" width="75.88759424263193" height="50" fill="#3572A5"/>
-<rect x="658.5538039753255" y="60" width="61.19259766963674" height="50" fill="#663399"/>
-<rect x="719.7464016449622" y="60" width="39.69842357779301" height="50" fill="#dea584"/>
-<rect x="759.4448252227553" y="60" width="31.03495544893763" height="50" fill="#89e051"/>
-<rect x="790.4797806716929" y="60" width="12.17272104180946" height="50" fill="#083fa1"/>
-<rect x="802.6525017135024" y="60" width="7.237834132967787" height="50" fill="#f1e05a"/>
-<rect x="809.8903358464702" y="60" width="0.10966415352981493" height="50" fill="#3178c6"/>
-<circle cx="16" cy="136" r="6" fill="#c22d40" />
-<text x="27" y="140" font-size="15" font-family="sans-serif" fill="#FFF">Scala (5.2k lines, 71.6%)</text>
-<circle cx="266" cy="136" r="6" fill="#3572A5" />
-<text x="277" y="140" font-size="15" font-family="sans-serif" fill="#FFF">Python (692 lines, 9.5%)</text>
-<circle cx="516" cy="136" r="6" fill="#663399" />
-<text x="527" y="140" font-size="15" font-family="sans-serif" fill="#FFF">CSS (558 lines, 7.6%)</text>
-<circle cx="16" cy="156" r="6" fill="#dea584" />
-<text x="27" y="160" font-size="15" font-family="sans-serif" fill="#FFF">Rust (362 lines, 5.0%)</text>
-<circle cx="266" cy="156" r="6" fill="#89e051" />
-<text x="277" y="160" font-size="15" font-family="sans-serif" fill="#FFF">Shell (283 lines, 3.9%)</text>
-<circle cx="516" cy="156" r="6" fill="#083fa1" />
-<text x="527" y="160" font-size="15" font-family="sans-serif" fill="#FFF">Markdown (111 lines, 1.5%)</text>
-<circle cx="16" cy="176" r="6" fill="#f1e05a" />
-<text x="27" y="180" font-size="15" font-family="sans-serif" fill="#FFF">JavaScript (66 lines, 0.9%)</text>
-<circle cx="266" cy="176" r="6" fill="#3178c6" />
-<text x="277" y="180" font-size="15" font-family="sans-serif" fill="#FFF">TypeScript (1 lines, 0.0%)</text>
+<rect x="10" y="40" width="557.8314861797303" height="50" fill="#c22d40"/>
+<rect x="567.8314861797303" y="40" width="94.64548003738817" height="50" fill="#3572A5"/>
+<rect x="662.4769662171185" y="40" width="59.60742422219255" height="50" fill="#663399"/>
+<rect x="722.084390439311" y="40" width="38.67004940579516" height="50" fill="#dea584"/>
+<rect x="760.7544398451062" y="40" width="30.23100547469622" height="50" fill="#89e051"/>
+<rect x="790.9854453198024" y="40" width="11.857390839898517" height="50" fill="#083fa1"/>
+<rect x="802.8428361597008" y="40" width="7.050340499399118" height="50" fill="#f1e05a"/>
+<rect x="809.8931766590999" y="40" width="0.10682334089998666" height="50" fill="#3178c6"/>
+<circle cx="16" cy="116" r="6" fill="#c22d40" />
+<text x="27" y="120" font-size="15" font-family="sans-serif" fill="#FFF">Scala (5.2k lines, 69.7%)</text>
+<circle cx="266" cy="116" r="6" fill="#3572A5" />
+<text x="277" y="120" font-size="15" font-family="sans-serif" fill="#FFF">Python (886 lines, 11.8%)</text>
+<circle cx="516" cy="116" r="6" fill="#663399" />
+<text x="527" y="120" font-size="15" font-family="sans-serif" fill="#FFF">CSS (558 lines, 7.5%)</text>
+<circle cx="16" cy="136" r="6" fill="#dea584" />
+<text x="27" y="140" font-size="15" font-family="sans-serif" fill="#FFF">Rust (362 lines, 4.8%)</text>
+<circle cx="266" cy="136" r="6" fill="#89e051" />
+<text x="277" y="140" font-size="15" font-family="sans-serif" fill="#FFF">Shell (283 lines, 3.8%)</text>
+<circle cx="516" cy="136" r="6" fill="#083fa1" />
+<text x="527" y="140" font-size="15" font-family="sans-serif" fill="#FFF">Markdown (111 lines, 1.5%)</text>
+<circle cx="16" cy="156" r="6" fill="#f1e05a" />
+<text x="27" y="160" font-size="15" font-family="sans-serif" fill="#FFF">JavaScript (66 lines, 0.9%)</text>
+<circle cx="266" cy="156" r="6" fill="#3178c6" />
+<text x="277" y="160" font-size="15" font-family="sans-serif" fill="#FFF">TypeScript (1 lines, 0.0%)</text>
 </svg>
