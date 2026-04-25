@@ -51,4 +51,8 @@ for lang in lang_stats:
 lang_stats.sort(key=lambda x: x["lines"], reverse=True)
 
 # Generate SVG
-generate_svg(lang_stats, "recent.svg", total_lines, "Recent Code Lines by Language")
+generate_svg(
+    lang_stats,
+    "recent.svg",
+    total_lines,
+)

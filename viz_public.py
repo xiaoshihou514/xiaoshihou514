@@ -10,14 +10,16 @@ with open("colors.json") as f:
     colors = json.load(f)
 
 # Set languages to skip
-skip_langs = SKIP_LANGS.union({
-    "Total",
-    "JavaScript",
-    "CSS",
-    "Perl",
-    "Markdown",
-    "TypeScript",
-})
+skip_langs = SKIP_LANGS.union(
+    {
+        "Total",
+        "JavaScript",
+        "CSS",
+        "Perl",
+        "Markdown",
+        "TypeScript",
+    }
+)
 
 # Minimum LOC to display
 min_lines = 100
@@ -48,7 +50,11 @@ for l in lang_stats:
     l["color"] = colors.get(l["name"], {}).get("color", "#000000")
 
 # Generate SVG
-generate_svg(lang_stats, "public.svg", total_lines, "Public Code Lines by Language")
+generate_svg(
+    lang_stats,
+    "public.svg",
+    total_lines,
+)
 
 print(
     f"Total lines (excluding skipped languages and small langs < {min_lines} LOC): {total_lines}"

@@ -8,10 +8,10 @@ def trunc(s, n=12):
     return s if len(s) <= n else s[: n - 1] + "…"
 
 
-def generate_svg(lang_stats, output_file, total_lines, title=None):
+def generate_svg(lang_stats, output_file, total_lines):
     """
     Generate SVG chart from language statistics
-    
+
     Args:
         lang_stats: List of dictionaries with keys: name, lines, percent, color
         output_file: Path to output SVG file
@@ -33,15 +33,9 @@ def generate_svg(lang_stats, output_file, total_lines, title=None):
         f'<rect width="{width}" height="{height}" fill="#212830"/>',
     ]
 
-    # Add title if provided
-    if title:
-        svg_lines.append(
-            f'<text x="10" y="30" font-size="18" font-family="sans-serif" fill="#FFF" font-weight="bold">{title}</text>'
-        )
-
     # Draw horizontal stacked bar
     x = 10
-    y = 40 if not title else 60
+    y = 40
     for lang in lang_stats:
         bar_width = width * lang["percent"] / 100
         svg_lines.append(
