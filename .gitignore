@@ -1,4 +1,4 @@
 /temp/
 /stats_*.json
-/recent/
-/recent_copilot/
+/recent*
+__pycache__
