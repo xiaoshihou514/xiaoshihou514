@@ -1,18 +1,18 @@
 <svg width="800" height="190" xmlns="http://www.w3.org/2000/svg">
 <rect width="800" height="190" fill="#212830"/>
-<rect x="10" y="40" width="310.06124234470695" height="50" fill="#3572A5"/>
-<rect x="320.06124234470695" y="40" width="293.96325459317586" height="50" fill="#dea584"/>
-<rect x="614.0244969378828" y="40" width="173.57830271216096" height="50" fill="#083fa1"/>
-<rect x="787.6027996500437" y="40" width="8.048993875765529" height="50" fill="#3178c6"/>
-<rect x="795.6517935258092" y="40" width="5.2493438320209975" height="50" fill="#89e051"/>
-<rect x="800.9011373578303" y="40" width="5.2493438320209975" height="50" fill="#f1e05a"/>
-<rect x="806.1504811898512" y="40" width="3.849518810148731" height="50" fill="#41b883"/>
+<rect x="10" y="40" width="309.7902097902098" height="50" fill="#3572A5"/>
+<rect x="319.7902097902098" y="40" width="293.7062937062937" height="50" fill="#dea584"/>
+<rect x="613.4965034965035" y="40" width="174.12587412587413" height="50" fill="#083fa1"/>
+<rect x="787.6223776223776" y="40" width="8.041958041958042" height="50" fill="#3178c6"/>
+<rect x="795.6643356643357" y="40" width="5.244755244755245" height="50" fill="#89e051"/>
+<rect x="800.9090909090909" y="40" width="5.244755244755245" height="50" fill="#f1e05a"/>
+<rect x="806.1538461538461" y="40" width="3.8461538461538463" height="50" fill="#41b883"/>
 <circle cx="16" cy="116" r="6" fill="#3572A5" />
-<text x="27" y="120" font-size="15" font-family="sans-serif" fill="#FFF">Python (886 lines, 38.8%)</text>
+<text x="27" y="120" font-size="15" font-family="sans-serif" fill="#FFF">Python (886 lines, 38.7%)</text>
 <circle cx="266" cy="116" r="6" fill="#dea584" />
 <text x="277" y="120" font-size="15" font-family="sans-serif" fill="#FFF">Rust (840 lines, 36.7%)</text>
 <circle cx="516" cy="116" r="6" fill="#083fa1" />
-<text x="527" y="120" font-size="15" font-family="sans-serif" fill="#FFF">Markdown (496 lines, 21.7%)</text>
+<text x="527" y="120" font-size="15" font-family="sans-serif" fill="#FFF">Markdown (498 lines, 21.8%)</text>
 <circle cx="16" cy="136" r="6" fill="#3178c6" />
 <text x="27" y="140" font-size="15" font-family="sans-serif" fill="#FFF">TypeScript (23 lines, 1.0%)</text>
 <circle cx="266" cy="136" r="6" fill="#89e051" />

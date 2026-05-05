@@ -1,33 +1,33 @@
 <svg width="800" height="210" xmlns="http://www.w3.org/2000/svg">
 <rect width="800" height="210" fill="#212830"/>
-<rect x="10" y="40" width="474.1410775212251" height="50" fill="#dea584"/>
-<rect x="484.1410775212251" y="40" width="91.37506942791399" height="50" fill="#A97BFF"/>
-<rect x="575.516146949139" y="40" width="71.88764579861939" height="50" fill="#41b883"/>
-<rect x="647.4037927477584" y="40" width="67.09513607871142" height="50" fill="#083fa1"/>
-<rect x="714.4989288264699" y="40" width="56.62143933983972" height="50" fill="#3178c6"/>
-<rect x="771.1203681663096" y="40" width="15.710545108307548" height="50" fill="#663399"/>
-<rect x="786.8309132746172" y="40" width="8.315480441164802" height="50" fill="#3572A5"/>
-<rect x="795.146393715782" y="40" width="7.8394033166706345" height="50" fill="#f1e05a"/>
-<rect x="802.9857970324526" y="40" width="4.411648020312624" height="50" fill="#000000"/>
-<rect x="807.3974450527653" y="40" width="2.6025549472347853" height="50" fill="#000000"/>
+<rect x="10" y="40" width="435.4758781518729" height="50" fill="#dea584"/>
+<rect x="445.4758781518729" y="40" width="132.4296749744935" height="50" fill="#A97BFF"/>
+<rect x="577.9055531263664" y="40" width="80.16324150998396" height="50" fill="#41b883"/>
+<rect x="658.0687946363504" y="40" width="61.62367001894767" height="50" fill="#083fa1"/>
+<rect x="719.6924646552981" y="40" width="54.481853957149106" height="50" fill="#3178c6"/>
+<rect x="774.1743186124472" y="40" width="14.54598455035709" height="50" fill="#663399"/>
+<rect x="788.7203031628043" y="40" width="7.637370645678472" height="50" fill="#3572A5"/>
+<rect x="796.3576738084828" y="40" width="7.20011660107856" height="50" fill="#f1e05a"/>
+<rect x="803.5577904095613" y="40" width="4.0518874799591895" height="50" fill="#000000"/>
+<rect x="807.6096778895205" y="40" width="2.390322110479522" height="50" fill="#000000"/>
 <circle cx="16" cy="116" r="6" fill="#dea584" />
-<text x="27" y="120" font-size="15" font-family="sans-serif" fill="#FFF">Rust (14.9k lines, 59.3%)</text>
+<text x="27" y="120" font-size="15" font-family="sans-serif" fill="#FFF">Rust (14.9k lines, 54.4%)</text>
 <circle cx="266" cy="116" r="6" fill="#A97BFF" />
-<text x="277" y="120" font-size="15" font-family="sans-serif" fill="#FFF">Kotlin (2.9k lines, 11.4%)</text>
+<text x="277" y="120" font-size="15" font-family="sans-serif" fill="#FFF">Kotlin (4.5k lines, 16.6%)</text>
 <circle cx="516" cy="116" r="6" fill="#41b883" />
-<text x="527" y="120" font-size="15" font-family="sans-serif" fill="#FFF">Vue (2.3k lines, 9.0%)</text>
+<text x="527" y="120" font-size="15" font-family="sans-serif" fill="#FFF">Vue (2.8k lines, 10.0%)</text>
 <circle cx="16" cy="136" r="6" fill="#083fa1" />
-<text x="27" y="140" font-size="15" font-family="sans-serif" fill="#FFF">Markdown (2.1k lines, 8.4%)</text>
+<text x="27" y="140" font-size="15" font-family="sans-serif" fill="#FFF">Markdown (2.1k lines, 7.7%)</text>
 <circle cx="266" cy="136" r="6" fill="#3178c6" />
-<text x="277" y="140" font-size="15" font-family="sans-serif" fill="#FFF">TypeScript (1.8k lines, 7.1%)</text>
+<text x="277" y="140" font-size="15" font-family="sans-serif" fill="#FFF">TypeScript (1.9k lines, 6.8%)</text>
 <circle cx="516" cy="136" r="6" fill="#663399" />
-<text x="527" y="140" font-size="15" font-family="sans-serif" fill="#FFF">CSS (495 lines, 2.0%)</text>
+<text x="527" y="140" font-size="15" font-family="sans-serif" fill="#FFF">CSS (499 lines, 1.8%)</text>
 <circle cx="16" cy="156" r="6" fill="#3572A5" />
 <text x="27" y="160" font-size="15" font-family="sans-serif" fill="#FFF">Python (262 lines, 1.0%)</text>
 <circle cx="266" cy="156" r="6" fill="#f1e05a" />
-<text x="277" y="160" font-size="15" font-family="sans-serif" fill="#FFF">JavaScript (247 lines, 1.0%)</text>
+<text x="277" y="160" font-size="15" font-family="sans-serif" fill="#FFF">JavaScript (247 lines, 0.9%)</text>
 <circle cx="516" cy="156" r="6" fill="#000000" />
-<text x="527" y="160" font-size="15" font-family="sans-serif" fill="#FFF">WebGPU Shad… (139 lines, 0.6%)</text>
+<text x="527" y="160" font-size="15" font-family="sans-serif" fill="#FFF">WebGPU Shad… (139 lines, 0.5%)</text>
 <circle cx="16" cy="176" r="6" fill="#000000" />
 <text x="27" y="180" font-size="15" font-family="sans-serif" fill="#FFF">Batch (82 lines, 0.3%)</text>
 </svg>
