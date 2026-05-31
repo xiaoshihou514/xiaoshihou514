@@ -27,6 +27,7 @@ SKIP_LANGS = {
     "YAML",
     "TOML",
     "Plain Text",
+    "Markdown",
     "XML",
     "MDX",
     "INI",
