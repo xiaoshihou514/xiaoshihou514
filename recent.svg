@@ -1,18 +1,18 @@
 <svg width="800" height="170" xmlns="http://www.w3.org/2000/svg">
 <rect width="800" height="170" fill="#212830"/>
-<rect x="10" y="40" width="439.48497854077254" height="50" fill="#083fa1"/>
-<rect x="449.48497854077254" y="40" width="192.27467811158797" height="50" fill="#000000"/>
-<rect x="641.7596566523605" y="40" width="78.96995708154506" height="50" fill="#3178c6"/>
-<rect x="720.7296137339056" y="40" width="44.63519313304722" height="50" fill="#89e051"/>
-<rect x="765.3648068669528" y="40" width="44.63519313304722" height="50" fill="#41b883"/>
-<circle cx="16" cy="116" r="6" fill="#083fa1" />
-<text x="27" y="120" font-size="15" font-family="sans-serif" fill="#FFF">Markdown (128 lines, 54.9%)</text>
-<circle cx="266" cy="116" r="6" fill="#000000" />
-<text x="277" y="120" font-size="15" font-family="sans-serif" fill="#FFF">Fish (56 lines, 24.0%)</text>
-<circle cx="516" cy="116" r="6" fill="#3178c6" />
-<text x="527" y="120" font-size="15" font-family="sans-serif" fill="#FFF">TypeScript (23 lines, 9.9%)</text>
-<circle cx="16" cy="136" r="6" fill="#89e051" />
-<text x="27" y="140" font-size="15" font-family="sans-serif" fill="#FFF">Shell (13 lines, 5.6%)</text>
-<circle cx="266" cy="136" r="6" fill="#41b883" />
-<text x="277" y="140" font-size="15" font-family="sans-serif" fill="#FFF">Vue (13 lines, 5.6%)</text>
+<rect x="10" y="40" width="422.64150943396226" height="50" fill="#000000"/>
+<rect x="432.64150943396226" y="40" width="173.58490566037736" height="50" fill="#3178c6"/>
+<rect x="606.2264150943396" y="40" width="98.11320754716981" height="50" fill="#89e051"/>
+<rect x="704.3396226415094" y="40" width="98.11320754716981" height="50" fill="#41b883"/>
+<rect x="802.4528301886793" y="40" width="7.547169811320755" height="50" fill="#3572A5"/>
+<circle cx="16" cy="116" r="6" fill="#000000" />
+<text x="27" y="120" font-size="15" font-family="sans-serif" fill="#FFF">Fish (56 lines, 52.8%)</text>
+<circle cx="266" cy="116" r="6" fill="#3178c6" />
+<text x="277" y="120" font-size="15" font-family="sans-serif" fill="#FFF">TypeScript (23 lines, 21.7%)</text>
+<circle cx="516" cy="116" r="6" fill="#89e051" />
+<text x="527" y="120" font-size="15" font-family="sans-serif" fill="#FFF">Shell (13 lines, 12.3%)</text>
+<circle cx="16" cy="136" r="6" fill="#41b883" />
+<text x="27" y="140" font-size="15" font-family="sans-serif" fill="#FFF">Vue (13 lines, 12.3%)</text>
+<circle cx="266" cy="136" r="6" fill="#3572A5" />
+<text x="277" y="140" font-size="15" font-family="sans-serif" fill="#FFF">Python (1 lines, 0.9%)</text>
 </svg>
