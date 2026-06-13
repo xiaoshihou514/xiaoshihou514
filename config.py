@@ -12,6 +12,7 @@ OUTPUT_DIR.mkdir(exist_ok=True)
 AGENTS = {
     "copilot": "Co-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>",
     "trae": "Co-authored-by: TRAE <trae@example.com>"
+    "opencode-deepseek": "Co-authored-by: opencode <deepseek@opencode.com>"
 }
 
 # Create output directories for each agent
