@@ -1,15 +1,39 @@
-<svg width="800" height="170" xmlns="http://www.w3.org/2000/svg">
-<rect width="800" height="170" fill="#212830"/>
-<rect x="10" y="40" width="624.9263984298332" height="50" fill="#3572A5"/>
-<rect x="634.9263984298332" y="40" width="151.09287179944687" height="50" fill="#ec915c"/>
-<rect x="786.01927022928" y="40" width="21.482737086269964" height="50" fill="#239dad"/>
-<rect x="807.5020073155499" y="40" width="2.4979926844499953" height="50" fill="#000000"/>
+<svg width="800" height="210" xmlns="http://www.w3.org/2000/svg">
+<rect width="800" height="210" fill="#212830"/>
+<rect x="10" y="40" width="318.67469879518075" height="50" fill="#3572A5"/>
+<rect x="328.67469879518075" y="40" width="231.69601482854495" height="50" fill="#dea584"/>
+<rect x="560.3707136237257" y="40" width="98.10009267840594" height="50" fill="#ec915c"/>
+<rect x="658.4708063021317" y="40" width="42.493049119555145" height="50" fill="None"/>
+<rect x="700.9638554216868" y="40" width="34.986098239110284" height="50" fill="#000080"/>
+<rect x="735.9499536607972" y="40" width="30.630213160333643" height="50" fill="#3178c6"/>
+<rect x="766.5801668211308" y="40" width="13.34569045412419" height="50" fill="#239dad"/>
+<rect x="779.925857275255" y="40" width="12.32622798887859" height="50" fill="#A97BFF"/>
+<rect x="792.2520852641336" y="40" width="9.592215013901761" height="50" fill="#f1e05a"/>
+<rect x="801.8443002780353" y="40" width="6.070435588507878" height="50" fill="#41b883"/>
+<rect x="807.9147358665432" y="40" width="1.6218721037998145" height="50" fill="#000000"/>
+<rect x="809.536607970343" y="40" width="0.46339202965708987" height="50" fill="#e38c00"/>
 <circle cx="16" cy="116" r="6" fill="#3572A5" />
-<text x="27" y="120" font-size="15" font-family="sans-serif" fill="#FFF">Python (8.8k lines, 78.1%)</text>
-<circle cx="266" cy="116" r="6" fill="#ec915c" />
-<text x="277" y="120" font-size="15" font-family="sans-serif" fill="#FFF">Zig (2.1k lines, 18.9%)</text>
-<circle cx="516" cy="116" r="6" fill="#239dad" />
-<text x="527" y="120" font-size="15" font-family="sans-serif" fill="#FFF">Typst (301 lines, 2.7%)</text>
-<circle cx="16" cy="136" r="6" fill="#000000" />
-<text x="27" y="140" font-size="15" font-family="sans-serif" fill="#FFF">Fish (35 lines, 0.3%)</text>
+<text x="27" y="120" font-size="15" font-family="sans-serif" fill="#FFF">Python (6.9k lines, 39.8%)</text>
+<circle cx="266" cy="116" r="6" fill="#dea584" />
+<text x="277" y="120" font-size="15" font-family="sans-serif" fill="#FFF">Rust (5.0k lines, 29.0%)</text>
+<circle cx="516" cy="116" r="6" fill="#ec915c" />
+<text x="527" y="120" font-size="15" font-family="sans-serif" fill="#FFF">Zig (2.1k lines, 12.3%)</text>
+<circle cx="16" cy="136" r="6" fill="None" />
+<text x="27" y="140" font-size="15" font-family="sans-serif" fill="#FFF">Lean (917 lines, 5.3%)</text>
+<circle cx="266" cy="136" r="6" fill="#000080" />
+<text x="277" y="140" font-size="15" font-family="sans-serif" fill="#FFF">Lua (755 lines, 4.4%)</text>
+<circle cx="516" cy="136" r="6" fill="#3178c6" />
+<text x="527" y="140" font-size="15" font-family="sans-serif" fill="#FFF">TypeScript (661 lines, 3.8%)</text>
+<circle cx="16" cy="156" r="6" fill="#239dad" />
+<text x="27" y="160" font-size="15" font-family="sans-serif" fill="#FFF">Typst (288 lines, 1.7%)</text>
+<circle cx="266" cy="156" r="6" fill="#A97BFF" />
+<text x="277" y="160" font-size="15" font-family="sans-serif" fill="#FFF">Kotlin (266 lines, 1.5%)</text>
+<circle cx="516" cy="156" r="6" fill="#f1e05a" />
+<text x="527" y="160" font-size="15" font-family="sans-serif" fill="#FFF">JavaScript (207 lines, 1.2%)</text>
+<circle cx="16" cy="176" r="6" fill="#41b883" />
+<text x="27" y="180" font-size="15" font-family="sans-serif" fill="#FFF">Vue (131 lines, 0.8%)</text>
+<circle cx="266" cy="176" r="6" fill="#000000" />
+<text x="277" y="180" font-size="15" font-family="sans-serif" fill="#FFF">Fish (35 lines, 0.2%)</text>
+<circle cx="516" cy="176" r="6" fill="#e38c00" />
+<text x="527" y="180" font-size="15" font-family="sans-serif" fill="#FFF">SQL (10 lines, 0.1%)</text>
 </svg>
