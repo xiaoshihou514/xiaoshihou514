@@ -1,33 +1,36 @@
 <svg width="800" height="210" xmlns="http://www.w3.org/2000/svg">
 <rect width="800" height="210" fill="#212830"/>
-<rect x="10" y="40" width="523.1185916037919" height="50" fill="#3572A5"/>
-<rect x="533.1185916037919" y="40" width="86.67053588701876" height="50" fill="#000080"/>
-<rect x="619.7891274908106" y="40" width="63.76475140259238" height="50" fill="#f1e05a"/>
-<rect x="683.5538788934031" y="40" width="44.26388082801315" height="50" fill="#239dad"/>
-<rect x="727.8177597214162" y="40" width="40.08512284774618" height="50" fill="#ec915c"/>
-<rect x="767.9028825691624" y="40" width="19.1913329464113" height="50" fill="#dea584"/>
-<rect x="787.0942155155738" y="40" width="12.226736312633005" height="50" fill="#41b883"/>
-<rect x="799.3209518282067" y="40" width="5.881214935190559" height="50" fill="#3178c6"/>
-<rect x="805.2021667633973" y="40" width="4.4882956084349" height="50" fill="#89e051"/>
-<rect x="809.6904623718322" y="40" width="0.30953762816792413" height="50" fill="#000000"/>
+<rect x="10" y="40" width="410.9422492401216" height="50" fill="#3572A5"/>
+<rect x="420.9422492401216" y="40" width="146.01823708206686" height="50" fill="None"/>
+<rect x="566.9604863221884" y="40" width="68.08510638297872" height="50" fill="#000080"/>
+<rect x="635.0455927051671" y="40" width="60.30395136778115" height="50" fill="#239dad"/>
+<rect x="695.3495440729482" y="40" width="50.09118541033435" height="50" fill="#f1e05a"/>
+<rect x="745.4407294832826" y="40" width="31.489361702127656" height="50" fill="#ec915c"/>
+<rect x="776.9300911854102" y="40" width="15.075987841945288" height="50" fill="#dea584"/>
+<rect x="792.0060790273556" y="40" width="9.604863221884498" height="50" fill="#41b883"/>
+<rect x="801.61094224924" y="40" width="4.620060790273556" height="50" fill="#3178c6"/>
+<rect x="806.2310030395136" y="40" width="3.5258358662613976" height="50" fill="#89e051"/>
+<rect x="809.756838905775" y="40" width="0.24316109422492402" height="50" fill="#000000"/>
 <circle cx="16" cy="116" r="6" fill="#3572A5" />
-<text x="27" y="120" font-size="15" font-family="sans-serif" fill="#FFF">Python (3.4k lines, 65.4%)</text>
-<circle cx="266" cy="116" r="6" fill="#000080" />
-<text x="277" y="120" font-size="15" font-family="sans-serif" fill="#FFF">Lua (560 lines, 10.8%)</text>
-<circle cx="516" cy="116" r="6" fill="#f1e05a" />
-<text x="527" y="120" font-size="15" font-family="sans-serif" fill="#FFF">JavaScript (412 lines, 8.0%)</text>
+<text x="27" y="120" font-size="15" font-family="sans-serif" fill="#FFF">Python (3.4k lines, 51.4%)</text>
+<circle cx="266" cy="116" r="6" fill="None" />
+<text x="277" y="120" font-size="15" font-family="sans-serif" fill="#FFF">Lean (1.2k lines, 18.3%)</text>
+<circle cx="516" cy="116" r="6" fill="#000080" />
+<text x="527" y="120" font-size="15" font-family="sans-serif" fill="#FFF">Lua (560 lines, 8.5%)</text>
 <circle cx="16" cy="136" r="6" fill="#239dad" />
-<text x="27" y="140" font-size="15" font-family="sans-serif" fill="#FFF">Typst (286 lines, 5.5%)</text>
-<circle cx="266" cy="136" r="6" fill="#ec915c" />
-<text x="277" y="140" font-size="15" font-family="sans-serif" fill="#FFF">Zig (259 lines, 5.0%)</text>
-<circle cx="516" cy="136" r="6" fill="#dea584" />
-<text x="527" y="140" font-size="15" font-family="sans-serif" fill="#FFF">Rust (124 lines, 2.4%)</text>
-<circle cx="16" cy="156" r="6" fill="#41b883" />
-<text x="27" y="160" font-size="15" font-family="sans-serif" fill="#FFF">Vue (79 lines, 1.5%)</text>
-<circle cx="266" cy="156" r="6" fill="#3178c6" />
-<text x="277" y="160" font-size="15" font-family="sans-serif" fill="#FFF">TypeScript (38 lines, 0.7%)</text>
-<circle cx="516" cy="156" r="6" fill="#89e051" />
-<text x="527" y="160" font-size="15" font-family="sans-serif" fill="#FFF">Shell (29 lines, 0.6%)</text>
-<circle cx="16" cy="176" r="6" fill="#000000" />
-<text x="27" y="180" font-size="15" font-family="sans-serif" fill="#FFF">Fish (2 lines, 0.0%)</text>
+<text x="27" y="140" font-size="15" font-family="sans-serif" fill="#FFF">Typst (496 lines, 7.5%)</text>
+<circle cx="266" cy="136" r="6" fill="#f1e05a" />
+<text x="277" y="140" font-size="15" font-family="sans-serif" fill="#FFF">JavaScript (412 lines, 6.3%)</text>
+<circle cx="516" cy="136" r="6" fill="#ec915c" />
+<text x="527" y="140" font-size="15" font-family="sans-serif" fill="#FFF">Zig (259 lines, 3.9%)</text>
+<circle cx="16" cy="156" r="6" fill="#dea584" />
+<text x="27" y="160" font-size="15" font-family="sans-serif" fill="#FFF">Rust (124 lines, 1.9%)</text>
+<circle cx="266" cy="156" r="6" fill="#41b883" />
+<text x="277" y="160" font-size="15" font-family="sans-serif" fill="#FFF">Vue (79 lines, 1.2%)</text>
+<circle cx="516" cy="156" r="6" fill="#3178c6" />
+<text x="527" y="160" font-size="15" font-family="sans-serif" fill="#FFF">TypeScript (38 lines, 0.6%)</text>
+<circle cx="16" cy="176" r="6" fill="#89e051" />
+<text x="27" y="180" font-size="15" font-family="sans-serif" fill="#FFF">Shell (29 lines, 0.4%)</text>
+<circle cx="266" cy="176" r="6" fill="#000000" />
+<text x="277" y="180" font-size="15" font-family="sans-serif" fill="#FFF">Fish (2 lines, 0.0%)</text>
 </svg>
