@@ -1,15 +1,15 @@
 <svg width="800" height="210" xmlns="http://www.w3.org/2000/svg">
 <rect width="800" height="210" fill="#212830"/>
-<rect x="10" y="40" width="359.0749624113983" height="50" fill="#3572A5"/>
-<rect x="369.0749624113983" y="40" width="138.89883296341375" height="50" fill="#dea584"/>
-<rect x="507.9737953748121" y="40" width="97.37237774754777" height="50" fill="#239dad"/>
-<rect x="605.3461731223599" y="40" width="90.38447769742966" height="50" fill="#41b883"/>
-<rect x="695.7306508197896" y="40" width="68.79072098517935" height="50" fill="None"/>
-<rect x="764.521371804969" y="40" width="26.920598553733797" height="50" fill="#f1e05a"/>
-<rect x="791.4419703587029" y="40" width="13.23118779981385" height="50" fill="#3178c6"/>
-<rect x="804.6731581585167" y="40" width="3.379394286532541" height="50" fill="#000000"/>
-<rect x="808.0525524450492" y="40" width="1.6610582086346386" height="50" fill="#89e051"/>
-<rect x="809.7136106536838" y="40" width="0.286389346316317" height="50" fill="#b07219"/>
+<rect x="10" y="40" width="358.9802348897164" height="50" fill="#3572A5"/>
+<rect x="368.9802348897164" y="40" width="138.92867373245488" height="50" fill="#dea584"/>
+<rect x="507.90890862217134" y="40" width="97.393297049556" height="50" fill="#239dad"/>
+<rect x="605.3022056717273" y="40" width="90.40389573188196" height="50" fill="#41b883"/>
+<rect x="695.7061014036092" y="40" width="68.80549985677456" height="50" fill="None"/>
+<rect x="764.5116012603837" y="40" width="26.92638212546548" height="50" fill="#f1e05a"/>
+<rect x="791.4379833858492" y="40" width="13.234030363792607" height="50" fill="#3178c6"/>
+<rect x="804.6720137496418" y="40" width="3.380120309366943" height="50" fill="#000000"/>
+<rect x="808.0521340590087" y="40" width="1.6614150673159553" height="50" fill="#89e051"/>
+<rect x="809.7135491263247" y="40" width="0.2864508736751647" height="50" fill="#b07219"/>
 <circle cx="16" cy="116" r="6" fill="#3572A5" />
 <text x="27" y="120" font-size="15" font-family="sans-serif" fill="#FFF">Python (6.3k lines, 44.9%)</text>
 <circle cx="266" cy="116" r="6" fill="#dea584" />
