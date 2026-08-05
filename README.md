@@ -9,7 +9,3 @@
 ### Recent commits
 
 ![](./recent.svg)
-
-### Recent commits (Agents)
-
-![](./agents.svg)
