@@ -1,25 +1,25 @@
 <svg width="800" height="190" xmlns="http://www.w3.org/2000/svg">
 <rect width="800" height="190" fill="#212830"/>
-<rect x="10" y="40" width="306.5743421880901" height="50" fill="#3572A5"/>
-<rect x="316.5743421880901" y="40" width="247.21138109026816" height="50" fill="#dea584"/>
-<rect x="563.7857232783583" y="40" width="127.17612992572076" height="50" fill="#3D6117"/>
-<rect x="690.961853204079" y="40" width="40.871207352385746" height="50" fill="#c22d40"/>
-<rect x="731.8330605564648" y="40" width="33.65982626211759" height="50" fill="#ec915c"/>
-<rect x="765.4928868185824" y="40" width="33.196525242351754" height="50" fill="#239dad"/>
-<rect x="798.6894120609342" y="40" width="9.618532040790633" height="50" fill="None"/>
-<rect x="808.3079441017248" y="40" width="1.6920558982752107" height="50" fill="#89e051"/>
+<rect x="10" y="40" width="307.3535521395928" height="50" fill="#3572A5"/>
+<rect x="317.3535521395928" y="40" width="238.93851267137515" height="50" fill="#dea584"/>
+<rect x="556.292064810968" y="40" width="131.14873286248442" height="50" fill="#3D6117"/>
+<rect x="687.4407976734524" y="40" width="42.147901952638136" height="50" fill="#c22d40"/>
+<rect x="729.5886996260905" y="40" width="34.711258828417115" height="50" fill="#ec915c"/>
+<rect x="764.2999584545076" y="40" width="34.036144578313255" height="50" fill="#239dad"/>
+<rect x="798.3361030328209" y="40" width="9.918986289987537" height="50" fill="None"/>
+<rect x="808.2550893228084" y="40" width="1.7449106771915246" height="50" fill="#89e051"/>
 <circle cx="16" cy="116" r="6" fill="#3572A5" />
-<text x="27" y="120" font-size="15" font-family="sans-serif" fill="#FFF">Python (30.4k lines, 38.3%)</text>
+<text x="27" y="120" font-size="15" font-family="sans-serif" fill="#FFF">Python (29.6k lines, 38.4%)</text>
 <circle cx="266" cy="116" r="6" fill="#dea584" />
-<text x="277" y="120" font-size="15" font-family="sans-serif" fill="#FFF">Rust (24.5k lines, 30.9%)</text>
+<text x="277" y="120" font-size="15" font-family="sans-serif" fill="#FFF">Rust (23.0k lines, 29.9%)</text>
 <circle cx="516" cy="116" r="6" fill="#3D6117" />
-<text x="527" y="120" font-size="15" font-family="sans-serif" fill="#FFF">TeX (12.6k lines, 15.9%)</text>
+<text x="527" y="120" font-size="15" font-family="sans-serif" fill="#FFF">TeX (12.6k lines, 16.4%)</text>
 <circle cx="16" cy="136" r="6" fill="#c22d40" />
-<text x="27" y="140" font-size="15" font-family="sans-serif" fill="#FFF">Scala (4.1k lines, 5.1%)</text>
+<text x="27" y="140" font-size="15" font-family="sans-serif" fill="#FFF">Scala (4.1k lines, 5.3%)</text>
 <circle cx="266" cy="136" r="6" fill="#ec915c" />
-<text x="277" y="140" font-size="15" font-family="sans-serif" fill="#FFF">Zig (3.3k lines, 4.2%)</text>
+<text x="277" y="140" font-size="15" font-family="sans-serif" fill="#FFF">Zig (3.3k lines, 4.3%)</text>
 <circle cx="516" cy="136" r="6" fill="#239dad" />
-<text x="527" y="140" font-size="15" font-family="sans-serif" fill="#FFF">Typst (3.3k lines, 4.1%)</text>
+<text x="527" y="140" font-size="15" font-family="sans-serif" fill="#FFF">Typst (3.3k lines, 4.3%)</text>
 <circle cx="16" cy="156" r="6" fill="None" />
 <text x="27" y="160" font-size="15" font-family="sans-serif" fill="#FFF">Lean (955 lines, 1.2%)</text>
 <circle cx="266" cy="156" r="6" fill="#89e051" />
